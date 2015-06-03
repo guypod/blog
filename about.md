@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: About Guypo
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Guy Podjarny, or Guypo for short. I'm passionate about making a better web, and spend much of my time researching, educating and building tools to help improve web performance and security. I focus primarily on Mobile web performance and Responsive Web Design, and my research often includes running large scale tests or digging into the internals of how browsers work.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm the author of [Mobitest](http://mobitest.akamai.com), an [open-source](https://github.com/guypod/mobitest-agent) mobile web performance testing tool, am on the programming committee of the [Velocity conference](http://velocityconf.com). I'm also the author of "[Responsive & Fast](http://shop.oreilly.com/product/0636920034667.do)", a short book about RWD Performance. You can [buy it](http://shop.oreilly.com/product/0636920034667.do) knowing all profits are donated to [Code Club](https://www.codeclub.org.uk/), or [get a free copy](http://www.akamai.com/dl/akamai/responsive-and-fast-implementing-high-performance-responsive-design.pdf) courtesy of [Akamai](http://www.akamai.com).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I'm currently the Chief Technology Officer (CTO) of Akamai’s Web Performance business. Before Akamai I the co-founder and CTO of Blaze.io, which was acquired by Akamai in 2012. Before that I spent over a decade working on Web Application Security, and more specifically the first Web App Firewall (AppShield) and the market leading Web Application Security scanner (AppScan).

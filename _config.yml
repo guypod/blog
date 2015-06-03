@@ -1,12 +1,54 @@
 # Site settings
-title: Guy's Pod
-description: > # this means to ignore newlines until "baseurl:"
-  Random thoughts and research about Web Performance & Security
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://www.guypo.com" # the base hostname & protocol for your site
+title:       Guy's Pod
+email:
+author:      Guy Podjarny
+description: "Thoughts and research on Web Performance & Security"
+baseurl:     ""
+url:         "http://guypo.com/"
+
+# Google analytics
+google_analytics: UA-32373758-1
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: guypod
+
+# Social icons
+show_social_icons: true
+github_username: guypod
+stackoverflow_id:
 twitter_username: guypod
-github_username:  guypod
-highlighter: pygments
+google_plus_id:
+linkedin_username: guypo
+angellist_username: guy-podjarny
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
 
 # Build settings
-markdown: kramdown
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     3
+sass:
+  compressed: true
