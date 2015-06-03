@@ -2,8 +2,4 @@
 # The scss file which include files from _sass/
 ---
 
-@charset "utf-8";
-
-@import "basscss";
-@import "main";
-@import "solarized-dark";
+{% include pixyll-inline.scss %}
