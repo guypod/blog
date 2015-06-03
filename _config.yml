@@ -3,7 +3,7 @@ title:       Guy's Pod
 email:
 author:      Guy Podjarny
 description: "Thoughts and research on Web Performance & Security"
-baseurl:     ""
+baseurl:     "/blog"
 url:         "http://guypo.com/"
 
 # Google analytics
