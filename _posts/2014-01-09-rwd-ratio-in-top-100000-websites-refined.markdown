@@ -5,7 +5,7 @@ date: '2014-01-09 13:56:04'
 ---
 
 
-A few weeks ago [I posted the results](http://www.guypo.com/mobile/roughly-1-in-8-websites-is-responsive/) of a research testing the top 10,000 websites for responsive indicators. The test showed roughly 12% of these sites were responsive, a ratio that was fairly consistent across the top 100, 1,000 and 10,000 sites.
+A few weeks ago [I posted the results](http://www.guypo.com/roughly-1-in-8-websites-is-responsive/) of a research testing the top 10,000 websites for responsive indicators. The test showed roughly 12% of these sites were responsive, a ratio that was fairly consistent across the top 100, 1,000 and 10,000 sites.
 
 Following [twitter feedback](https://twitter.com/guypod/status/413333925331623936), I reran the test on the top 100,000 (!!!) websites as well, and dug deeper into the websites flagged as responsive – this post shares the results.
 

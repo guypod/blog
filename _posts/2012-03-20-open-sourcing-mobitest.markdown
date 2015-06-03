@@ -5,9 +5,9 @@ date: '2012-03-20 06:15:01'
 ---
 
 
-![](http://www.blaze.io/wp-content/uploads/2012/03/osi_standard_logo.png)I’m excited to announce that today we’re open-sourcing Mobitest!
+![](http://www.guypo.com/wp-content/uploads/2012/03/osi_standard_logo.png)I’m excited to announce that today we’re open-sourcing Mobitest!
 
-We always saw [Mobitest](http://www.blaze.io/mobile/) as a community tool. Following the acquisition, we raised the idea of open-sourcing it to the relevant people in Akamai, and it was immediately accepted. And so, roughly a month after the acquisition, we’re ready to share the code with the world!
+We always saw [Mobitest](http://mobitest.akamai.com/) as a community tool. Following the acquisition, we raised the idea of open-sourcing it to the relevant people in Akamai, and it was immediately accepted. And so, roughly a month after the acquisition, we’re ready to share the code with the world!
 
 
 ## Mobitest Huh?
@@ -20,7 +20,7 @@ Mobitest runs on iOS, Android and Blackberry, regardless of the hardware – sma
 
 The Mobitest agents are installed on the device itself. Once installed, they run in an infinite loop on the device, turning it into a (very) small server. The devices poll a webpagetest server, and you can submit test requests and view results through the webpagetest UI.
 
-We also offer a hosted instance of Mobitest on [http://blaze.io/mobile/](http://blaze.io/mobile/). This hosted version is a free service that lets you use our own devices to measure, which is easier than setting up your own. What we’re open-sourcing today is the mobile agent code (the real technology), but the hosted version is still up and running, and we encourage you to use it.
+We also offer a hosted instance of Mobitest on [http://mobitest.akamai.com/](http://mobitest.akamai.com/). This hosted version is a free service that lets you use our own devices to measure, which is easier than setting up your own. What we’re open-sourcing today is the mobile agent code (the real technology), but the hosted version is still up and running, and we encourage you to use it.
 
 
 ## Measuring The Right Thing
@@ -53,9 +53,9 @@ The code includes agents for the three different platforms: iOS, Android and Bla
 
 The iOS and Blackberry agent also have a secondary app that acts as a crash recovery app. Mobile phones are not designed to be servers, so we had to get creative to overcome various crashes and memory leaks. On Android we could do that using OS hooks, but on iOS and Blackberry we needed a second app to keep the app running smoothly.
 
-[![](http://www.blaze.io/wp-content/uploads/2012/03/mobitest-opensourced.png)](http://code.google.com/p/mobitest-agent/)
+[![](http://www.guypo.com/wp-content/uploads/2012/03/mobitest-opensourced.png)](http://code.google.com/p/mobitest-agent/)
 
-If you just want to browse the code and understand what it does, just click the link above and browse away. If you want to actually install it on your own device, you will need the appropriate developer license from [Apple](https://developer.apple.com/devcenter/ios/index.action), [Google](http://developer.android.com/index.html) or [RIM](https://bdsc.webapps.blackberry.com/java/). As always, you can use the freely use the [hosted version of Mobitest](../mobile/) if you just want to run some tests.
+If you just want to browse the code and understand what it does, just click the link above and browse away. If you want to actually install it on your own device, you will need the appropriate developer license from [Apple](https://developer.apple.com/devcenter/ios/index.action), [Google](http://developer.android.com/index.html) or [RIM](https://bdsc.webapps.blackberry.com/java/). As always, you can use the freely use the [hosted version of Mobitest](../) if you just want to run some tests.
 
 
 ## How Can I Contribute?

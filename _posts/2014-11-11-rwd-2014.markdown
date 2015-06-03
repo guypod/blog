@@ -7,7 +7,7 @@ date: '2014-11-11 13:06:43'
 
 Responsive Web Design is hot. Practically every company I speak to, around the globe, is either going responsive, has gone responsive, or – at the very least – giving it serious consideration. So, with all this buzz, how many websites are actually responsive?
 
-To answer this question, I ran a test on the top 10,000 websites (per Alexa), and checked if they are responsive. This test was a repeat of a test I ran last year, and relies primarily on the presence of a horizontal scrollbar when loading the page on a small screen. If the scrollbar is there, it indicates the website didn’t adjust its styling to the display, and thus is not responsive. You can find the full test methodology in [last year’s post](http://www.guypo.com/mobile/roughly-1-in-8-websites-is-responsive/).
+To answer this question, I ran a test on the top 10,000 websites (per Alexa), and checked if they are responsive. This test was a repeat of a test I ran last year, and relies primarily on the presence of a horizontal scrollbar when loading the page on a small screen. If the scrollbar is there, it indicates the website didn’t adjust its styling to the display, and thus is not responsive. You can find the full test methodology in [last year’s post](http://www.guypo.com/roughly-1-in-8-websites-is-responsive/).
 
 I had the pleasure of presenting this data at the awesome [Web Directions South 2014](http://www.webdirections.org/wds14/) (slides [here)](http://www.slideshare.net/guypod/responsive-in-the-wild-2014), and in this post summarized the highlights. So, let’s get to the results!
 
@@ -90,5 +90,3 @@ Responsive Web Design adoption is growing rapidly, and is already nearing the ad
 In my opinion, this does not mean you should stick to dedicated mobile websites as your strategy. In today’s web (and tomorrow’s web), arbitrarily separating “mobile” from not is doomed to fail, and approaches like RWD are required if we’re to properly serve the fast pace and fragmented device landscape. However, mobile websites gave us some freebies when it comes to performance, and when using RWD, and the more complex pages it requires, we lose those discounts. We have to own our performance.
 
 As an industry, we should keep encouraging the use of RWD, but at the same time we have to double our efforts in building knowledge and tooling for making responsive websites fast. So pick up an [RWD Performance book](http://bit.ly/rf-free) ([free copy](http://bit.ly/rf-free)!), attend an [RWD Perf workshop](http://smashingconf.com/oxford-2015/workshops/guy-pordjany) near you, and start making responsive websites fast!
-
-

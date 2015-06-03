@@ -5,7 +5,7 @@ date: '2012-06-20 14:16:06'
 ---
 
 
-The [SPDY benchmark I posted last week](http://www.guypo.com/technical/not-as-spdy-as-you-thought/) got some pretty heavy traffic, and I was happy to see it also sparked a lot of conversation and comments. Some of the comments were just trolls looking for attention ([don’t feed them!](http://www.slideshare.net/stubbornella/dont-feed-the-trolls)). Others, however, held good ideas for follow up tests or suggestions for how to address the lack of acceleration.
+The [SPDY benchmark I posted last week](http://www.guypo.com/not-as-spdy-as-you-thought/) got some pretty heavy traffic, and I was happy to see it also sparked a lot of conversation and comments. Some of the comments were just trolls looking for attention ([don’t feed them!](http://www.slideshare.net/stubbornella/dont-feed-the-trolls)). Others, however, held good ideas for follow up tests or suggestions for how to address the lack of acceleration.
 
 Below is a collection of the top ideas that came up, and my thoughts on them.
 

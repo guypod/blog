@@ -9,7 +9,7 @@ It’s been a while since we updated about Mobitest, and we’re way overdue for
 
 First some words about growth. Mobitest has grown dramatically since we launched back in February of last year. Just in the last couple of months, Mobitest traffic has tripled, and with it the number of tests submitted. Testers clearly care about iOS the most – 55% of the tests are sent on iOS, and 69% of the tests on iOS. Granted, the fact iPhone is the default device probably helps those stats…  
   
-[![](http://www.blaze.io/wp-content/uploads/2011/11/mobiteststats.png)](http://www.blaze.io/wp-content/uploads/2011/11/mobiteststats.png)
+[![](http://www.guypo.com/wp-content/uploads/2011/11/mobiteststats.png)](http://www.guypo.com/wp-content/uploads/2011/11/mobiteststats.png)
 
 The backbone technology is also playing a greater role outside of the public site. By now we’ve run 13 batch tests for the [Mobile HTTP Archive](http://mobile.httparchive.org/), including the latest one being 2,000 URLs. We used Mobitest in various studies such as the iOS 5 Review and various presentations. We also have several private instances of Mobitest deployed by now, used by 3rd party organizations.
 
@@ -17,7 +17,7 @@ The backbone technology is also playing a greater role outside of the public sit
 
 Moving on to the new announcements. The first update is iOS 5 – we’ve upgraded most of our iOS devices to iOS 5. Seeing as this is a free upgrade, we feel like this is the more representative OS to use. We kept one iPhone on 4.3, and will keep it there for a couple of weeks, to support comparisons between the versions.
 
-We’ve already done a [thorough review of iOS 5 Browser Performance changes](http://www.blaze.io/mobile/ios5-top10-performance-changes/), now you can run these tests yourself!
+We’ve already done a [thorough review of iOS 5 Browser Performance changes](http://mobitest.akamai.com/ios5-top10-performance-changes/), now you can run these tests yourself!
 
 ### New: Blackberry – Alpha
 

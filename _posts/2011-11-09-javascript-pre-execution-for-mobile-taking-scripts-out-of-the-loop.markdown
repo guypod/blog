@@ -16,7 +16,7 @@ While bad on desktop browser, dynamic content is terrible for Mobile devices. Th
 
 JavaScript performance on Mobile Device is dramatically worse on Mobile, as compared to desktop. The chart below shows the results of running SunSpider JavaScript benchmark on different evolutions of iOS. Using software updates, Apple has taken iPhone from needing 10 seconds to complete the benchmark, to completing it in under 4 seconds. By doubling the phone’s CPU, it improved further to taking roughly 2.2 seconds to complete. Even after these dramatic optimizations, a generic Mac Book Pro finishes the test in 230ms – a tenth of the latest iPhone with the latest iOS. Android numbers are comparable – dramatically slower than laptops, let alone desktops.
 
-[![](http://www.blaze.io/wp-content/uploads/2011/11/sunspider.jpg)](http://www.blaze.io/wp-content/uploads/2011/11/sunspider.jpg)
+[![](http://www.guypo.com/wp-content/uploads/2011/11/sunspider.jpg)](http://www.guypo.com/wp-content/uploads/2011/11/sunspider.jpg)
 
 A common misconception is that this performance only impacts highly sophisticated web applications, such as web-based games or online image editors. This is definitely not the case – the slower hardware impacts practically every web page, and to a significant extent.
 
@@ -24,7 +24,7 @@ To test that, we measured the Top 100 Sites in the US (as defined by Alexa) on i
 
 The results showed hardware clearly matters. iPhone 4S, which has double the CPU power of iPhone 4 but is otherwise similar, was roughly 15% faster than the iPhone 4. The iOS Simulator, however, was much faster, loading pages 56% faster than iPhone 4, and roughly twice as fast as the iPhone 4S. Most of the measured sites were mobile sites, which tend to be light on JavaScript, we expect the gap to be even greater on the iPad.
 
-![](http://www.blaze.io/wp-content/uploads/2011/11/pageloadtime.png)
+![](http://www.guypo.com/wp-content/uploads/2011/11/pageloadtime.png)
 
 
 ## What Is JavaScript Pre-Execution

@@ -5,7 +5,7 @@ date: '2013-12-18 13:29:58'
 ---
 
 
-I’ve been on a bit of a quest to find out how many responsive websites are out there.  In [a recent post](http://www.guypo.com/mobile/rwd-and-one-web-adoption-rates/), I describe a decent way to track the adoption rate of the “One Web” concept, but that technique doesn’t work well for tracking responsive design.
+I’ve been on a bit of a quest to find out how many responsive websites are out there.  In [a recent post](http://www.guypo.com/rwd-and-one-web-adoption-rates/), I describe a decent way to track the adoption rate of the “One Web” concept, but that technique doesn’t work well for tracking responsive design.
 
 Now, I think I found the trick for automatically identifying a responsive site.
 
@@ -49,7 +49,7 @@ While I could manually verify 200 URLs, doing the same for 10,000 was a bit much
 
 ## Secondary Verification: Mobile Redirects
 
-In the mentioned [recent post](http://www.guypo.com/mobile/rwd-and-one-web-adoption-rates/), I identified all the [Mobile HTTP Archive](http://mobile.httparchive.org/) websites that redirected to a mobile site. Since responsive websites usually *replace* a mobile site, I would expect to see practically no overlap between the list of RWD sites and the list of sites that redirect to mobile.
+In the mentioned [recent post](http://www.guypo.com/rwd-and-one-web-adoption-rates/), I identified all the [Mobile HTTP Archive](http://mobile.httparchive.org/) websites that redirected to a mobile site. Since responsive websites usually *replace* a mobile site, I would expect to see practically no overlap between the list of RWD sites and the list of sites that redirect to mobile.
 
 Comparing the two lists, I indeed only found 25 websites that were marked as both redirecting to a mobile site and responsive. This is quite small – only 2% of all marked responsive sites sites. It’s also substantially smaller than the 20% portion of all websites that redirect to mobile. Therefore, I see this as another affirmation of the test results.
 
@@ -62,7 +62,7 @@ I’m pretty excited about this new find – both the technique and the data.
 
 Regarding the technique, I feel it’ll be a good (even if not perfect) way to track Responsive Design adoption over time. The data I have so far suggest 95% or more of the sites marked as responsive are indeed responsive, making it accurate enough to use. Beyond tracking adoption, now that we’ve found these sites we can analyze them and find recurring patterns, test performance methodologies and much more – I already have quite a few additional tests on the go…
 
-Regarding the data, I’m actually quite impressed. I was well aware RWD is gaining adoption, but frankly did not expect almost every 8<sup>th</sup> site to be responsive! I am truly happy it’s getting such broad adoption, and a little freaked out at the performance implications of it, since very few responsive websites [make the effort to be fast](http://www.guypo.com/technical/responsive-web-design-is-bad-for-performance-there-i-said-it/).
+Regarding the data, I’m actually quite impressed. I was well aware RWD is gaining adoption, but frankly did not expect almost every 8<sup>th</sup> site to be responsive! I am truly happy it’s getting such broad adoption, and a little freaked out at the performance implications of it, since very few responsive websites [make the effort to be fast](http://www.guypo.com/responsive-web-design-is-bad-for-performance-there-i-said-it/).
 
 I’d love to get feedback on both data & technique, along with ideas for what to look into next with these new data sets. Please share your thoughts in the comments field or ping me [on Twitter](http://twitter.com/guypod/).
 

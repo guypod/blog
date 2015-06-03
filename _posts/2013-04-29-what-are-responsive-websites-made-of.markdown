@@ -5,7 +5,7 @@ date: '2013-04-29 18:28:58'
 ---
 
 
-A few weeks ago I [tested](http://www.guypo.com/uncategorized/real-world-rwd-performance-take-2/) (again) nearly 500 responsive websites in different resolutions. My test was focused on size differences between resolutions, but looked at the overall page size as a single unit.
+A few weeks ago I [tested](http://www.guypo.com/real-world-rwd-performance-take-2/) (again) nearly 500 responsive websites in different resolutions. My test was focused on size differences between resolutions, but looked at the overall page size as a single unit.
 
 In this blog post, I’d like to dig into the same data, but this time drill down into the specific types of resources on the page – Image, JavaScript, CSS and HTML files. Such a drill down can give us better insight into which optimizations are being applied today, and help guide us regarding where to focus our performance evangelism.
 
@@ -16,7 +16,7 @@ The average size of an RWD site ranged from 1,187 KB on the largest screen to 1,
 
 [![rwd-page-size-by-ftype-res](http://res.cloudinary.com/guypo-blog/image/upload/v1431082692/rwd-page-size-by-ftype-res_opaorp.png)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082692/rwd-page-size-by-ftype-res_opaorp.png)
 
-As you can see, the overall size doesn’t change much, which was the point I made in the [previous post](http://www.guypo.com/uncategorized/real-world-rwd-performance-take-2/), so I won’t fret over it too much now. However, the chart captures some new interesting tidbits, which I’ll go over in the next few sections.
+As you can see, the overall size doesn’t change much, which was the point I made in the [previous post](http://www.guypo.com/real-world-rwd-performance-take-2/), so I won’t fret over it too much now. However, the chart captures some new interesting tidbits, which I’ll go over in the next few sections.
 
 It’s worth noting that while I’m only digging into 2013 data here, most of the observations seem to hold true for the data I collected in 2012.
 

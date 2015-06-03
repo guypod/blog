@@ -5,12 +5,12 @@ date: '2010-12-16 22:30:26'
 ---
 
 
-For the converted the benefits of **Web Performance Optimization** are blatantly obvious.  To name a few: increased conversion rates, increased pageviews, lower server bandwidth costs, increased search engine rankings, and lower website abandonment rates.![Web Performance Optimization](http://www.blaze.io/wp-content/uploads/2010/12/iStock_000013901118XSmall.jpg)
+For the converted the benefits of **Web Performance Optimization** are blatantly obvious.  To name a few: increased conversion rates, increased pageviews, lower server bandwidth costs, increased search engine rankings, and lower website abandonment rates.![Web Performance Optimization](http://www.guypo.com/wp-content/uploads/2010/12/iStock_000013901118XSmall.jpg)
 
 These are all great benefits that come from implementing WPO but convincing a client or the company you work at that investing in WPO is worth the effort often requires cold hard facts.
 
 Here is a roundup of some of the most compelling statistics proving the effectiveness of WPO to business results:  
-  
+
 **Facebook:**
 
 - Facebook pages that are 500ms slower result in a 3% drop-off in traffic, 1000ms is 6% drop-off
@@ -84,5 +84,3 @@ Netflix: [http://velocityconf.com/velocity2008/public/schedule/detail/3632](http
 Hotmail: [http://velocityconf.com/velocity2009/public/schedule/detail/8970](http://velocityconf.com/velocity2009/public/schedule/detail/8970)
 
 AOL: [http://www.scribd.com/doc/16878352/The-Secret-Weapons-of-the-AOL-Optimization-Team](http://www.scribd.com/doc/16878352/The-Secret-Weapons-of-the-AOL-Optimization-Team)
-
-

@@ -5,11 +5,11 @@ date: '2012-02-02 15:13:06'
 ---
 
 
-![](http://www.blaze.io/wp-content/uploads/2012/02/wmtvsga-sitespeed.png)
+![](http://www.guypo.com/wp-content/uploads/2012/02/wmtvsga-sitespeed.png)
 
 Google is probably the biggest evangelist of speeding up the web, and spends millions each year on making the web faster. More specifically, Google offers users insight into their page load times, using two separate “Real User Monitoring” views: “Site Performance” in [Google Webmaster Tools](http://www.google.com/webmastertools) (WMT), and “Site Speed” in [Google Analytics](http://www.google.com/analytics/) (GA).
 
-While both tools serve a similar purpose, the problem is they hardly ever match. The average load times are often dramatically different. On [www.blaze.io](http://www.blaze.io), for example, GA reported load times over 50% longer than what WMT displayed.
+While both tools serve a similar purpose, the problem is they hardly ever match. The average load times are often dramatically different. On [www.guypo.com](http://www.guypo.com), for example, GA reported load times over 50% longer than what WMT displayed.
 
 In this post I’ll share my understanding of these tools. Note that WMT is not an open-source tool, and so our knowledge of how it works is based on some experimenting, limited information pieces from Google (plus some from Google employees), and some speculation. I try to point out what is fact and what is theory in the sections below.
 

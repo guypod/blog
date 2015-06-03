@@ -7,7 +7,7 @@ date: '2011-03-17 08:00:14'
 
 ### iPhone 52% slower than Android, Android speeds past iPhone on 84% of sites<sup>*</sup>
 
-<div style="padding: 10px;padding-bottom: 0px;background-color: #fbf9b5;width: 85%;margin-bottom: 10px;border: 1px solid #a9a9a9">**UPDATE: **Due to differences between the iPhone’s embedded browser vs the iPhones native browser the results may vary. [Read More](http://www.blaze.io/business/embeded-browser-vs-native-browser/)  
+<div style="padding: 10px;padding-bottom: 0px;background-color: #fbf9b5;width: 85%;margin-bottom: 10px;border: 1px solid #a9a9a9">**UPDATE: **Due to differences between the iPhone’s embedded browser vs the iPhones native browser the results may vary. [Read More](http://www.guypo.com/business/embeded-browser-vs-native-browser/)  
 **UPDATE:** Adjusted post title adding “Embedded Browser” to reflect recent findings.  
 **UPDATE:** Adjusted use of percentages
 
@@ -31,7 +31,7 @@ date: '2011-03-17 08:00:14'
  The results surprised us.
 
 First of all, we found that Android’s browser is faster. Not just a little faster, the iPhone was a whopping 52% slower. Android beat iPhone by loading 84% of the websites faster, meaning Safari won the race only 16% of the time. While we expected to see one of the browsers come out on top, we didn’t expect this gap.  
-[![](http://www.blaze.io/wp-content/uploads/2011/03/chart_winlossloadtime_v2-300x169.jpg)](http://www.blaze.io/wp-content/uploads/2011/03/chart_winlossloadtime_v2.jpg)  
+[![](http://www.guypo.com/wp-content/uploads/2011/03/chart_winlossloadtime_v2-300x169.jpg)](http://www.guypo.com/wp-content/uploads/2011/03/chart_winlossloadtime_v2.jpg)  
  Secondly, we saw that despite the optimized JavaScript engines in the latest iPhone & Android versions, browsing speed did not get better. Both Apple and Google tout great performance improvements, but those seem to be reserved to JavaScript benchmarks and high-complexity apps. If you expect pages to show up faster after an upgrade, you’ll be sorely disappointed. Read on to get more info about both findings, as well as additional comparisons such as WiFi vs. 3G and mobile sites vs. regular sites.
 
 ### What Makes This Study Unique
@@ -44,7 +44,7 @@ Other comparisons attempted to compare a small set of sites manually. However, w
 
 The study was done primarily on iPhone 4 and Google Nexus S. The websites used were those of the Fortune 1000 companies. Each page was loaded multiple times and on different days, measured primarily over WiFi. For each device, we used the median load time for the comparison. The total number of tests was over 45,000.
 
-This study was made possible through custom apps we developed, used to measure page load time on mobile devices. These apps run on the actual devices, load a page on demand, and measure how long it took. These agents are available as a free service to measure your own site on [Mobitest](http://blaze.io/mobile/).
+This study was made possible through custom apps we developed, used to measure page load time on mobile devices. These apps run on the actual devices, load a page on demand, and measure how long it took. These agents are available as a free service to measure your own site on [Mobitest](http://mobitest.akamai.com/).
 
 *Update: While Nexus S and iPhone 4 share similar CPU’s, measurements indicate iPhone 4 is running it at a 770Mhz speed. This was likely done to improve battery life at the expense of performance, and may account for some of the gap.*
 
@@ -52,7 +52,7 @@ For the full details about our methodology, see the “Detailed Methodology” A
 
 ### iPhone 4.3 vs. Android 2.3
 
-[![](http://www.blaze.io/wp-content/uploads/2011/03/chart_fastestmedloadtime-300x160.jpg)](http://www.blaze.io/wp-content/uploads/2011/03/chart_fastestmedloadtime.jpg)  
+[![](http://www.guypo.com/wp-content/uploads/2011/03/chart_fastestmedloadtime-300x160.jpg)](http://www.guypo.com/wp-content/uploads/2011/03/chart_fastestmedloadtime.jpg)  
  Our primary comparison was, as mentioned, the latest Android vs. the latest iPhone. We wanted to find out whose browser is faster, and got a resounding answer:
 
 Android’s browser is faster. MUCH faster. On average, iPhone 4.3 was 52% slower than Android 2.3, with a median load time of 2.144 seconds vs. iPhone’s median load time of 3.254 seconds. Both median load times are generally fast, but keep in mind the test was done over a fast WiFi connection, and both the devices and network weren’t doing anything else.
@@ -94,7 +94,7 @@ It’s worth emphasizing that we tested from a good reception area, and at night
 
 ### Mobile Sites vs. non-mobile sites
 
-[![](http://www.blaze.io/wp-content/uploads/2011/03/chart_loadtimemobilevsreg-300x170.jpg)](http://www.blaze.io/wp-content/uploads/2011/03/chart_loadtimemobilevsreg.jpg)  
+[![](http://www.guypo.com/wp-content/uploads/2011/03/chart_loadtimemobilevsreg-300x170.jpg)](http://www.guypo.com/wp-content/uploads/2011/03/chart_loadtimemobilevsreg.jpg)  
  One way to improve your website’s mobile browsing experience is to create a mobile site. This is a good practice for improving usability, and is usually lighter in resources – and thus faster to load. We were curious to see whether mobile websites indeed provide the expected performance boost.
 
 Out of the 1000 test sites, 175 had a website customized for mobile. On average, mobile websites were loaded in 2.062 seconds, compared to 2.857 – a significant 39% gap. The difference was even greater on iPhone, where mobile sites were 60% faster (2.085 vs. 3.463). On Android, mobile sites were merely 7% faster (2.024 vs 2.180).
@@ -106,7 +106,7 @@ In general, smaller sites load much faster. We defined small sites as sites with
 This study provided a lot of unexpected insights.  
  We assumed that similar hardware specs and the same WebKit foundation would make iPhone and Android’s browsers perform equally. We assumed that a faster JavaScript engine equals a faster browser. We assumed that 3G would be way slower than WiFi, even under good conditions.
 
-All of these assumptions have been proven wrong when we actually measured those scenarios. Without measuring, you don’t know when and where you need to optimize. The SunSpider JavaScript benchmark pushed browsers to optimize JavaScript performance, because they could measure it. We hope that tools such as [Mobitest](http://blaze.io/mobile/) would eventually result in a similar improvement to the browsing experience.
+All of these assumptions have been proven wrong when we actually measured those scenarios. Without measuring, you don’t know when and where you need to optimize. The SunSpider JavaScript benchmark pushed browsers to optimize JavaScript performance, because they could measure it. We hope that tools such as [Mobitest](http://mobitest.akamai.com/) would eventually result in a similar improvement to the browsing experience.
 
 ### Appendix: Detailed Methodology
 
@@ -118,7 +118,7 @@ To get the actual numbers, we measured each of the 1000 pages 3 times on each de
 
 To summarize, we ran 9000 tests over WiFi on each of these devices: iPhone 4.2, iPhone 4.3, Galaxy S (Android 2.2) and Nexus S (Android 2.3). We also ran 9000 tests on iPhone 4.2 over the Bell 3G network. Lastly, we ran 1000 tests on desktop browsers to separate mobile sites from non-mobile sites. The total number of tests performed for this study was 46,000.
 
-The measurement itself was done using the custom apps, which use the platform’s embedded browser. This means WebView (based on Chrome) for Android, and UIWebView (based on Safari) for iPhone. Manual verification showed that page load performance of the embedded browsers, when properly configured, is effectively identical to the stand-alone browsers. The load times are calculated using the “Document Complete” callback from the browser, which is a standard way of measuring a web page’s load time. As mentioned above, the agents are now a part of a free service available at [http://blaze.io/mobile/](http://blaze.io/mobile/), and we encourage you to try it out.
+The measurement itself was done using the custom apps, which use the platform’s embedded browser. This means WebView (based on Chrome) for Android, and UIWebView (based on Safari) for iPhone. Manual verification showed that page load performance of the embedded browsers, when properly configured, is effectively identical to the stand-alone browsers. The load times are calculated using the “Document Complete” callback from the browser, which is a standard way of measuring a web page’s load time. As mentioned above, the agents are now a part of a free service available at [http://mobitest.akamai.com/](http://mobitest.akamai.com/), and we encourage you to try it out.
 
 To distinguish mobile sites from non-mobile sites, we loaded the same 1000 sites through IE8. We then compared the number of resources required to load the page on iPhone as compared to IE8. If the desktop browser required 30 additional resources or more, we flagged the website as mobile. Otherwise, it was flagged as “not mobile”, meaning it does not have a customized version for mobile.
 

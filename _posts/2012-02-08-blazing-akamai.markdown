@@ -5,7 +5,7 @@ date: '2012-02-08 08:45:35'
 ---
 
 
-![](http://www.blaze.io/wp-content/uploads/2012/02/akamai-blaze1.png)
+![](http://www.guypo.com/wp-content/uploads/2012/02/akamai-blaze1.png)
 
 As you may have heard, [Akamai acquired Blaze today](http://www.akamai.com/blaze).
 
@@ -40,7 +40,7 @@ Obviously, the evolution of the web doesn’t stop. Browsers may be a fairly new
 
 Like the modern browser, Mobile devices and networks enable exciting new opportunities. Like the modern browser, these opportunities create their own performance challenges, such as high latency networks and low-powered devices. And like the modern browser, these techniques cannot be solved without expanding the reach beyond what CDNs do today.
 
-Blaze has been focused on Mobile from the start, building [Mobitest](http://blaze.io/mobile/), researching mobile browsers and more. Akamai is no less focused on Mobile but using completely different solutions, like [putting a CDN edge inside an antenna](http://www.akamai.com/ericsson). Combining what Blaze does with what Akamai does (and adding what we’ll do together) is the way to get toa true solution for accelerating mobile websites.
+Blaze has been focused on Mobile from the start, building [Mobitest](http://mobitest.akamai.com/), researching mobile browsers and more. Akamai is no less focused on Mobile but using completely different solutions, like [putting a CDN edge inside an antenna](http://www.akamai.com/ericsson). Combining what Blaze does with what Akamai does (and adding what we’ll do together) is the way to get toa true solution for accelerating mobile websites.
 
 
 ## Oh, The Possibilities!

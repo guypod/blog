@@ -7,7 +7,7 @@ date: '2011-02-28 19:04:18'
 
 As you know, a couple of weeks ago we launched a community service for measuring page load times on mobile devices. It looks like we weren’t the only ones feeling the pain of not having such tools – the traffic and feedback on the service has been overwhelmingly positive.
 
-[![Mobitest Tool](http://www.blaze.io/wp-content/uploads/2011/02/mobitestupdate.png)](http://www.blaze.io/mobile/)
+[![Mobitest Tool](http://www.guypo.com/wp-content/uploads/2011/02/mobitestupdate.png)](http://mobitest.akamai.com/)
 
 Over the last couple of weeks thousands of URLs were submitted through the tool, uncovering quite a few bugs in the BETA tool, including accuracy issues, stability issues, and long queues. We received a lot of great feedback, helping us prioritize the urgent issues and enhance our roadmap.
 
@@ -15,7 +15,7 @@ We also discovered was another site called Blaze Mobile. To avoid any confusion 
 
 ### New (not so) Minor Release
 
-So, after a fair bit of scrambling and some sleepless nights, today we’re releasing a new release of [Mobitest](http://www.blaze.io/mobile/). The new version includes many bug fixes, and a few small features.
+So, after a fair bit of scrambling and some sleepless nights, today we’re releasing a new release of [Mobitest](http://mobitest.akamai.com/). The new version includes many bug fixes, and a few small features.
 
 Here are the highlights of the updated service:
 
@@ -33,7 +33,7 @@ Fixes to various crashes, auto-recovery mechanisms and more devices mean the ser
 
 - Improved percentile values (based on larger data-set)
 - Various small UI improvements, such as:
-- [History of tests run](http://www.blaze.io/mobile/history/) (public tests only, most tests are submitted as private)
+- [History of tests run](http://mobitest.akamai.com/history/) (public tests only, most tests are submitted as private)
 - Improved icons
 
 

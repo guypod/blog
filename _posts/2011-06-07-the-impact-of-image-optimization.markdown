@@ -72,6 +72,6 @@ Image Optimization can make a significant impact on most sites. It reduces bandw
 
 Lossless Image Compression and loading images on-demand are usually a no-brainer. They benefit most sites, and rarely have a negative impact. Lossy Image Compression sounds scary, but it’s in fact designed to have no visible impact, and can provide great value. You should at least try it before making a decision. Lastly, image formats and encoding techniques can further improve the result, at times reducing sizes by an extra 10-20%.
 
-If you want to see the impact image optimization would have on your site’s load times and bandwidth, submit your URL on our [home page](http://www.blaze.io). If you’d like to experiment with the different image optimizations and see their individual impact on your pages, sign up for a [free trial account](http://www.blaze.io/trial/)..
+If you want to see the impact image optimization would have on your site’s load times and bandwidth, submit your URL on our [home page](http://www.guypo.com). If you’d like to experiment with the different image optimizations and see their individual impact on your pages, sign up for a [free trial account](http://www.guypo.com/trial/)..
 
 

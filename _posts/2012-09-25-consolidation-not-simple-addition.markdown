@@ -41,7 +41,7 @@ At a high level, Adaptive Consolidation works as follows:
 
 I discussed Adaptive Consolidation in more detail in my “DIY Scriptable Cache” Webinar, you can find the slides [here](http://www.slideshare.net/blazeio/diy-scriptablecachev2) and the recording [here](http://oreillynet.com/pub/e/2200).
 
-This flow is intentionally simplified, and doesn’t fully match our optimization. In addition, there are some complicated parts in the flow, such as managing the stored data as a [scriptable cache](http://www.guypo.com/technical/browser-cache-2-0-scriptable-cache/); evaluating scripts and CSS with JavaScript without breaking functionality; and handling errors when localStorage is full or unavailable.
+This flow is intentionally simplified, and doesn’t fully match our optimization. In addition, there are some complicated parts in the flow, such as managing the stored data as a [scriptable cache](http://www.guypo.com/browser-cache-2-0-scriptable-cache/); evaluating scripts and CSS with JavaScript without breaking functionality; and handling errors when localStorage is full or unavailable.
 
 Despite these caveats, and as mentioned above, this optimization proved to be extremely valuable to us, completely avoiding redundant data while achieving maximum consolidation.
 

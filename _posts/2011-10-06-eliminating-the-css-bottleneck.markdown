@@ -8,8 +8,8 @@ date: '2011-10-06 09:44:40'
 A big part of accelerating websites is eliminating bottlenecks. Scripts are likely the most discussed bottlenecks, but CSS files are equally bad. CSS files will block all subsequent downloads if there’s a script (internal or external) in between – which is the case on practically any real page.
 
 Most sites are affected by this bottleneck. Even extremely fast sites like webpagetest.org could still benefit from losing this “stair” in the waterfall.  
-![](http://www.blaze.io/wp-content/uploads/2011/10/csswaterfall.png)  
- So what can you do about it? You can load CSS asynchronously. Here are the key highlights of what you’ll need to do to achieve that, while maintaining the same site functionality. Alternatively, you can [just use Blaze](http://www.blaze.io), as we’ve been applying this optimization for a while now 😉
+![](http://www.guypo.com/wp-content/uploads/2011/10/csswaterfall.png)  
+ So what can you do about it? You can load CSS asynchronously. Here are the key highlights of what you’ll need to do to achieve that, while maintaining the same site functionality. Alternatively, you can [just use Blaze](http://www.guypo.com), as we’ve been applying this optimization for a while now 😉
 
 I’ll warn up-front that this isn’t trivial to do, but it’s definitely doable if your heart is set on it. Here’s the short list, details further down:
 
@@ -19,7 +19,7 @@ I’ll warn up-front that this isn’t trivial to do, but it’s definitely doab
 4. Maintain the correct order
 5. Avoid FOUC by setting body visibility
 
-**Update:** CSS files consistently block other resources on IE8 and often IE9, but not on Firefox and Opera. For WebKit, they only seem to block resources if they’re in the  of the document (likely a part of the [preloader behavior](http://blog.yoav.ws/archive/2011/09/)). A cool and very simple hack found by [Yoav Weiss](http://blog.yoav.ws/2011/10/Unblocking-blocking-stylesheets) is to add a div (or similar) element above the CSS links, which will make them not block. What it does is make WebKit (or at least Chrome) start the body earlier, and thus stop blocking. It’s super simple to do, just make sure you don’t create any side effects by ending the head early. Here are examples of CSS link [in the head](http://www.blaze.io/experiments/test-css-async.php?head=1), [in the body](http://www.blaze.io/experiments/test-css-async.php) and [in the head with Yoav’s trick](http://www.blaze.io/experiments/test-css-async.php?head=1&unblock=1).
+**Update:** CSS files consistently block other resources on IE8 and often IE9, but not on Firefox and Opera. For WebKit, they only seem to block resources if they’re in the  of the document (likely a part of the [preloader behavior](http://blog.yoav.ws/archive/2011/09/)). A cool and very simple hack found by [Yoav Weiss](http://blog.yoav.ws/2011/10/Unblocking-blocking-stylesheets) is to add a div (or similar) element above the CSS links, which will make them not block. What it does is make WebKit (or at least Chrome) start the body earlier, and thus stop blocking. It’s super simple to do, just make sure you don’t create any side effects by ending the head early. Here are examples of CSS link [in the head](http://www.guypo.com/experiments/test-css-async.php?head=1), [in the body](http://www.guypo.com/experiments/test-css-async.php) and [in the head with Yoav’s trick](http://www.guypo.com/experiments/test-css-async.php?head=1&unblock=1).
 
 ### 1. Replace link & Style Tags with a JavaScript Array
 

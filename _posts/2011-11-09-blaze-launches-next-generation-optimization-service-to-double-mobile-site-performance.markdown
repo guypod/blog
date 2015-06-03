@@ -10,13 +10,13 @@ date: '2011-11-09 08:00:30'
 
 The recent launch of Amazon’s new Silk browser generated a lot of interest in the concept of a hybrid browser that pre-processed content in the cloud. While very innovative, this technology is limited to the users of Amazon’s new tablet.
 
-![](http://www.blaze.io/wp-content/uploads/2011/11/mobilepic1.png)
+![](http://www.guypo.com/wp-content/uploads/2011/11/mobilepic1.png)
 
 Today, Blaze is pleased to announce the next generation of our Mobile Frontend Optimization (FEO) Service that will enable site owners to double the speed of their sites on most modern Tablet or Smartphone devices including iOS & Android. This new offering builds on our previous mobile optimization solution, adding new breakthrough innovations including the ability to pre-execute JavaScript in the Cloud.
 
 See detailed blog post for more information on this exciting technology:
 
-[http://www.blaze.io/mobile/javascript-pre-execution-for-mobile-taking-scripts-out-of-the-loop](../mobile/javascript-pre-execution-for-mobile-taking-scripts-out-of-the-loop)
+[http://mobitest.akamai.com/javascript-pre-execution-for-mobile-taking-scripts-out-of-the-loop](../javascript-pre-execution-for-mobile-taking-scripts-out-of-the-loop)
 
 ### The Mobile Performance Challenge
 
@@ -30,7 +30,7 @@ Mobile browser usage continues to skyrocket and customers are demanding ever-fas
 
 Even with the steady improvements in processing power in the latest smart phones, Mobile devices, on average, take ten times longer to process JavaScript then desktop browsers.
 
-[![](http://www.blaze.io/wp-content/uploads/2011/11/sunspider.jpg)](http://www.blaze.io/wp-content/uploads/2011/11/sunspider.jpg)
+[![](http://www.guypo.com/wp-content/uploads/2011/11/sunspider.jpg)](http://www.guypo.com/wp-content/uploads/2011/11/sunspider.jpg)
 
 Clearly, improving JavaScript processing speed will have a large impact on Mobile performance and help to narrow the gap between the user experience on a desktop vs. Mobile device.
 
@@ -38,11 +38,11 @@ Clearly, improving JavaScript processing speed will have a large impact on Mobil
 
 Blaze is a cloud based Frontend Optimization (FEO) solution that sits between the Web server and the Browser. After the server dynamically generates the HTML, it is routed through a hosted Blaze Agent that applies a series of pre-computed optimizations. The user then receives the “Blazed” or modified page in their browser. Static files are delivered from the customer’s CDN provider.
 
-[![](http://www.blaze.io/wp-content/uploads/2011/11/howblazeworks.jpg)](http://www.blaze.io/wp-content/uploads/2011/11/howblazeworks.jpg)
+[![](http://www.guypo.com/wp-content/uploads/2011/11/howblazeworks.jpg)](http://www.guypo.com/wp-content/uploads/2011/11/howblazeworks.jpg)
 
 Offline, the Blaze Analysis Center is constantly monitoring the pages of a given site to pre-processes HTML, JavaScript and other pages resources to make online delivery faster. Blaze reduces load times by decreasing the number of page objects, the size of the objects and by accelerating rendering the browser. The resulting pages are typically 2x faster than they were previously.
 
-[![](http://www.blaze.io/wp-content/uploads/2011/11/nascarvideo.jpg)](http://www.blaze.io/wp-content/uploads/2011/11/nascarvideo.jpg)
+[![](http://www.guypo.com/wp-content/uploads/2011/11/nascarvideo.jpg)](http://www.guypo.com/wp-content/uploads/2011/11/nascarvideo.jpg)
 
 ### New Mobile Optimizations
 
@@ -63,13 +63,13 @@ These new optimizations add to an already rich set of Mobile performance feature
 
 A complete list of optimizations can be found on the Blaze website at:
 
-[http://www.blaze.io/overview/](http://www.blaze.io/overview/)
+[http://www.guypo.com/overview/](http://www.guypo.com/overview/)
 
 ### Free Test Report
 
 Blaze operates a free reporting service that allows site owners to measure the before/after speed impact of Blaze optimization. The reporting system will load a test URL through the Blaze optimization proxy and measure the speed improvement using a real iPhone device.
 
-The test form can be found at: [http://www.blaze.io/](http://www.blaze.io)
+The test form can be found at: [http://www.guypo.com/](http://www.guypo.com)
 
 ### Pricing and Availability
 
@@ -77,6 +77,6 @@ The Blaze Mobile Optimization Service is now available as standalone service cal
 
 ### About Blaze
 
-Blaze was founded in 2010 with a mission to help clients deliver better performing Web businesses by making their sites faster. User experience, conversions, search rankings and operational costs are all influenced by the speed of your site. Blaze provides a free service for measuring [Mobile Web performance](http://www.blaze.io/mobile/) and a subscription service that automates Frontend Optimization (FEO).
+Blaze was founded in 2010 with a mission to help clients deliver better performing Web businesses by making their sites faster. User experience, conversions, search rankings and operational costs are all influenced by the speed of your site. Blaze provides a free service for measuring [Mobile Web performance](http://mobitest.akamai.com/) and a subscription service that automates Frontend Optimization (FEO).
 
 

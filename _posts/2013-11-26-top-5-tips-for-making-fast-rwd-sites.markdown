@@ -5,7 +5,7 @@ date: '2013-11-26 15:30:22'
 ---
 
 
-I was recently asked to provide a list of 5 tips for making Responsive websites fast. I’m usually not a fan of such “top 5” lists, feeling they over-simplify concepts that are quite complex (I definitely spend a good chunk of my time [talking](http://www.slideshare.net/guypod/performance-implications-of-mobile-design-perf-audience-edition) [about](http://www.guypo.com/uncategorized/responsive-images-meetup-a-subjective-summary/) [this](http://www.guypo.com/uncategorized/real-world-rwd-performance-take-2/) [topic](http://www.guypo.com/technical/responsive-web-design-is-bad-for-performance-there-i-said-it/)). However, as I wrote the tips it actually felt like 5 was the perfect number for the tips I had in mind, and that they did manage to paint a complete picture.
+I was recently asked to provide a list of 5 tips for making Responsive websites fast. I’m usually not a fan of such “top 5” lists, feeling they over-simplify concepts that are quite complex (I definitely spend a good chunk of my time [talking](http://www.slideshare.net/guypod/performance-implications-of-mobile-design-perf-audience-edition) [about](http://www.guypo.com/responsive-images-meetup-a-subjective-summary/) [this](http://www.guypo.com/real-world-rwd-performance-take-2/) [topic](http://www.guypo.com/responsive-web-design-is-bad-for-performance-there-i-said-it/)). However, as I wrote the tips it actually felt like 5 was the perfect number for the tips I had in mind, and that they did manage to paint a complete picture.
 
 And so, I figured it’s worthwhile sharing these tips on this blog as well. The tips are roughly in order of priority, based on my assessment of their criticality, except for the last one, which is really a wildcard.  
   

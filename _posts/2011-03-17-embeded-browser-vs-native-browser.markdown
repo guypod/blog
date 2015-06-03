@@ -5,7 +5,7 @@ date: '2011-03-17 15:36:31'
 ---
 
 
-Earlier today we released a [massive study comparing the performance of iPhone and Android’s Browsers](http://www.blaze.io/uncategorized/mobile/iphone-vs-android-45000-tests-prove-whose-browser-is-faster/). Our study showed Android’s browser to be 52% faster than iPhone’s. The study stirred a lot of chatter online, as this is a topic close to the heart of many.
+Earlier today we released a [massive study comparing the performance of iPhone and Android’s Browsers](http://www.guypo.com/iphone-vs-android-45000-tests-prove-whose-browser-is-faster/). Our study showed Android’s browser to be 52% faster than iPhone’s. The study stirred a lot of chatter online, as this is a topic close to the heart of many.
 
 To perform the measurements, we made use of purposefully written apps that used each platform’s Embedded Browser (as stated in the initial report). Embedded browsers are software components available to mobile apps to invoke the browser, and are the only ways both platforms allow users to interact with a browser. It’s important to emphasize – we used each platform’s embedded browser, not our own browser.  
   

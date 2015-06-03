@@ -5,7 +5,7 @@ date: '2011-12-21 12:15:32'
 ---
 
 
-![](http://www.blaze.io/wp-content/uploads/2011/12/htmlpresent.png)
+![](http://www.guypo.com/wp-content/uploads/2011/12/htmlpresent.png)
 
 A little while ago [Jason Grigsby](http://twitter.com/#%21/grigs) wrote a [great post](http://www.cloudfour.com/responsive-imgs-part-3-future-of-the-img-tag/) outlining his “wish list” for how the <img> tag should change to simplify mobile design (and specifically Responsive Images). The post created a lot of good conversation, and hopefully some standards activity too. At the end of the day, browser makers and developers share a common goal of making the web better, so this type of feedback helps.
 
@@ -14,7 +14,7 @@ Ever since I read that post I’ve been thinking about my own wish list, focused
 
 ## <img> tag: Responsive & On-Demand Images Support
 
-Two key optimizations for images are [Responsive Images](http://www.cloudfour.com/responsive-imgs-part-2/) (loading a small image for a smaller screen) and [Images On-Demand](../technical/the-impact-of-image-optimization/) (“lazy loading” images, requesting them only if they’re in the visibile area). Grigs already covered Responsive Images well, so I’ll focus on the latter.
+Two key optimizations for images are [Responsive Images](http://www.cloudfour.com/responsive-imgs-part-2/) (loading a small image for a smaller screen) and [Images On-Demand](../the-impact-of-image-optimization/) (“lazy loading” images, requesting them only if they’re in the visibile area). Grigs already covered Responsive Images well, so I’ll focus on the latter.
 
 I’d like the <img> tag to allow an optional “lazyload” attribute. If present and set to true, the browser will only request the image if it’s in the visible area, whether it’s “above the fold” or the user scrolled or resized the window and it came into view.
 

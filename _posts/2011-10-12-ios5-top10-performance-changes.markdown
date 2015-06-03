@@ -5,7 +5,7 @@ date: '2011-10-12 08:00:41'
 ---
 
 
-![](http://www.blaze.io/wp-content/uploads/2011/10/iso5.png)The much-hyped new version of iOS is finally here, and with it comes a new version of its browser. Here at Blaze we’ve been studying this new browser for a while, to learn what performance related changes it introduces.
+![](http://www.guypo.com/wp-content/uploads/2011/10/iso5.png)The much-hyped new version of iOS is finally here, and with it comes a new version of its browser. Here at Blaze we’ve been studying this new browser for a while, to learn what performance related changes it introduces.
 
 Now that the release is official, we can finally share our insights (previously prevented by the Apple Developer NDA).  
   
@@ -21,9 +21,9 @@ Each of these is launched in a different context, and has different features ena
 
 If you only have a minute to read this blog, here’s a quick comparison table:
 
-[![](http://www.blaze.io/wp-content/uploads/2011/10/blazechart.png)](http://www.blaze.io/wp-content/uploads/2011/10/blazechart.png)
+[![](http://www.guypo.com/wp-content/uploads/2011/10/blazechart.png)](http://www.guypo.com/wp-content/uploads/2011/10/blazechart.png)
 
-Share This: http://www.blaze.io/wp-content/uploads/2011/10/blazechart.png
+Share This: http://www.guypo.com/wp-content/uploads/2011/10/blazechart.png
 
 ### JavaScript Performance
 
@@ -31,7 +31,7 @@ One of the most common tests for any new browser version is its JavaScript perfo
 
 The table below shows the average results of 3 runs of the SunSpider JavaScript Benchmark (v0.9.1) in each environment. The test measures duration, so lower numbers are better. All tests were done on iPhone 4 hardware.
 
-[![](http://www.blaze.io/wp-content/uploads/2011/10/sunspiderbenchmark.png)](http://www.blaze.io/wp-content/uploads/2011/10/sunspiderbenchmark.png)
+[![](http://www.guypo.com/wp-content/uploads/2011/10/sunspiderbenchmark.png)](http://www.guypo.com/wp-content/uploads/2011/10/sunspiderbenchmark.png)
 
 <table><tr><th>OS/Browser</th><th>MobileSafari</th><th>Home Screen Pages</th><th>UIWebView</th></tr><tr><td>iOS 4</td><td>4052</td><td>10528</td><td>10044</td></tr><tr><td>iOS 5</td><td>3574</td><td>4551</td><td>12101</td></tr></table> 
 
@@ -53,11 +53,11 @@ While most websites won’t become 20x faster in iOS 5, some rich HTML5 function
 
 ### HTTP Pipelining
 
- Another very interesting change in iOS 5 is the introduction of HTTP Pipelining. As we outlined in [previous](http://www.blaze.io/mobile/http-pipelining-big-in-mobile/) [posts](http://www.blaze.io/technical/http-pipelining-request-distribution-algorithms/), HTTP Pipelining is a great technique to help address the long latency mobile networks suffer from. Android and Opera have been using Pipelining for a while, and now iOS is joining the party.
+ Another very interesting change in iOS 5 is the introduction of HTTP Pipelining. As we outlined in [previous](http://mobitest.akamai.com/http-pipelining-big-in-mobile/) [posts](http://www.guypo.com/http-pipelining-request-distribution-algorithms/), HTTP Pipelining is a great technique to help address the long latency mobile networks suffer from. Android and Opera have been using Pipelining for a while, and now iOS is joining the party.
 
 HTTP Pipelining is enabled for all browser modes (MobileSafari, UIWebView, Home-Screen). Some private API method names indicate determined developers can probably find ways to disable pipelining in their apps if they have reason to do so.
 
-Digging deeper into its behaviour, here are the specifics on how Pipelining is used in iOS 5 (the terms are explained [here](http://www.blaze.io/mobile/http-pipelining-big-in-mobile/) and [here](http://www.blaze.io/technical/http-pipelining-request-distribution-algorithms/)), compared to the other browsers that support it:
+Digging deeper into its behaviour, here are the specifics on how Pipelining is used in iOS 5 (the terms are explained [here](http://mobitest.akamai.com/http-pipelining-big-in-mobile/) and [here](http://www.guypo.com/http-pipelining-request-distribution-algorithms/)), compared to the other browsers that support it:
 
 <table><tr><th>Mobile Browsers</th><th>Server Support Detection</th><th>Max pipelined requests</th><th>Max connections per host</th><th>Pipeline vs. Connection Distribution</th></tr><tr><td>iOS 5.0</td><td>Per Host</td><td>–</td><td>6</td><td>Fill First*</td></tr><tr><td>Android</td><td>Per Connection</td><td>3</td><td>4</td><td>Fill First</td></tr><tr><td>Opera Mobile</td><td>Per Host</td><td>11</td><td>4</td><td>Distribute First</td></tr><tr><td>Opera Mini</td><td>Per Host</td><td>4</td><td>10</td><td>Distribute First</td></tr><tr><td>Blackberry</td><td colspan="4" style="text-align: center">– Not Supported –</td></tr></table>* Except for the first set of requests per connection. See below.
 
@@ -80,13 +80,13 @@ A large component of browser performance has to do with downloading files in par
 
 The good news is the new support for the[ “async” script attribute](http://www.w3schools.com/html5/tag_script.asp). This attribute allows website owners to explicitly mark a script as “async”, and thus keep it from blocking the page loading event or other scripts on the page. Support for async scripts is especially important on mobile networks, as they make it easier to keep 3rd party scripts from delaying the page load.
 
-The bad news is the removed support for downloading CSS files alongside other resources. Just last week we posted a [blog about the CSS bottleneck](http://www.blaze.io/technical/eliminating-the-css-bottleneck/), and discussed how CSS files in the body are downloaded alongside other files in WebKit browsers. iOS 4.3 worked this way, meaning it didn’t wait for the CSS files to complete before downloading the images on a page. In iOS5, the images won’t start getting downloaded until all CSS files are fully downloaded.
+The bad news is the removed support for downloading CSS files alongside other resources. Just last week we posted a [blog about the CSS bottleneck](http://www.guypo.com/eliminating-the-css-bottleneck/), and discussed how CSS files in the body are downloaded alongside other files in WebKit browsers. iOS 4.3 worked this way, meaning it didn’t wait for the CSS files to complete before downloading the images on a page. In iOS5, the images won’t start getting downloaded until all CSS files are fully downloaded.
 
 You can test both of these properties and more by running [BrowserScope’s Network Tests](http://www.browserscope.org/network/test).
 
 ### Caching
 
-For the most part, caching hasn’t changed in iOS5. Individual files of at least 4 MBs are still cacheable (as tested using [Steve Souders’ test](http://www.stevesouders.com/blog/2010/07/12/mobile-cache-file-sizes/)), persistent cache is still zero, and memory cache can still reach 100MB at times (using the same tests [we used before](http://www.blaze.io/mobile/understanding-mobile-cache-sizes/)).![](http://www.blaze.io/wp-content/uploads/2011/10/apple_folder.png)
+For the most part, caching hasn’t changed in iOS5. Individual files of at least 4 MBs are still cacheable (as tested using [Steve Souders’ test](http://www.stevesouders.com/blog/2010/07/12/mobile-cache-file-sizes/)), persistent cache is still zero, and memory cache can still reach 100MB at times (using the same tests [we used before](http://mobitest.akamai.com/understanding-mobile-cache-sizes/)).![](http://www.guypo.com/wp-content/uploads/2011/10/apple_folder.png)
 
 The main changes happened in how Home Screen Pages handle caching. As Souders [observed](http://www.stevesouders.com/blog/2011/06/28/lack-of-caching-for-iphone-home-screen-apps/), Home Screen Apps didn’t enjoy any persistent cache in iOS 4. In iOS 5 that is fixed, and these apps do enjoy proper caching, and don’t need to reload resources on load.
 
@@ -98,7 +98,7 @@ UIWebView seems to remain unchanged, offering some memory cache if used with the
 
 ### HTML5 Web Workers Support
 
-![](http://www.blaze.io/wp-content/uploads/2011/09/html5.jpg)  
+![](http://www.guypo.com/wp-content/uploads/2011/09/html5.jpg)  
  HTML5 introduces a new entity called Web Workers. These workers are side threads used for running time consuming JavaScript actions. Running such actions on a separate thread leaves the main thread free for user interaction and UI, and makes the application more responsive. You can read more about Web Workers [here](http://www.codediesel.com/javascript/introducing-html5-web-workers/).
 
 The Android Browser supported Web Workers since Android 2.0, but iOS did not support them until now. iOS 5 now added complete support for Web Workers, which is great news for rich applications.
@@ -115,7 +115,7 @@ In addition, under Advanced Settings users can see the amount of data stored for
 
 This post is meant primarily to explain the differences, but obviously we were curious about the bottom line impact it has on performance too. Our initial testing shows iOS 5 loaded pages are 10% faster than iOS 4.3.
 
-These tests were performed using the iOS Simulator (4.3 and 5.0) over simulated 3G network speeds. The measurement was done using the [Mobitest](http://www.blaze.io/mobile/) technology, and the test set was Top 100 US Websites, as defined by Alexa. Each page was measured 3 times, and both tests were performed overnight.
+These tests were performed using the iOS Simulator (4.3 and 5.0) over simulated 3G network speeds. The measurement was done using the [Mobitest](http://mobitest.akamai.com/) technology, and the test set was Top 100 US Websites, as defined by Alexa. Each page was measured 3 times, and both tests were performed overnight.
 
 The average page load time on iOS 5 was 12.6 seconds, compared to 14 seconds on iOS 4.3. The median page load showed a similar gap, going from 10.4 seconds on iOS 4.3 to 8.7 on iOS 5.
 

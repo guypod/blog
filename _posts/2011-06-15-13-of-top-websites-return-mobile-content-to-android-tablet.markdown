@@ -17,7 +17,7 @@ Note that these results are based on our methodology, which is outlined below.
 
 ### What’s wrong with a Mobile Site on a Tablet?
 
-[![](http://www.blaze.io/wp-content/uploads/2011/06/cnetonzoom.jpg)](http://www.blaze.io/wp-content/uploads/2011/06/cnetonzoom.jpg)  
+[![](http://www.guypo.com/wp-content/uploads/2011/06/cnetonzoom.jpg)](http://www.guypo.com/wp-content/uploads/2011/06/cnetonzoom.jpg)  
  A mobile site is a loosely defined term used to describe a site customized for a smartphone. Mobile sites are thus designed for small screens, are often more textual and provide a less rich design.
 
 Viewing mobile websites on a tablet creates two problems. First, the website is designed for a small screen, and often renders poorly on the larger screen. Second, and more importantly, the websites do not take advantage of the bigger screen, creating an inferior browsing experience for the user.
@@ -26,7 +26,7 @@ Some see Tablets as a replacement for netbooks and laptops, at least for functio
 
 To get a feel for what this feels like, take a look at some of the examples below, showing screenshots
 
-<div style="float: left;clear both">[![](http://www.blaze.io/wp-content/uploads/2011/06/accuweather.jpg)](http://www.blaze.io/wp-content/themes/Blaze/images/accuweather_big.jpg) [![](http://www.blaze.io/wp-content/uploads/2011/06/addictinggames.jpg)](http://www.blaze.io/wp-content/themes/Blaze/images/addictinggames_big.jpg) [![](http://www.blaze.io/wp-content/uploads/2011/06/americanairline.jpg)](http://www.blaze.io/wp-content/themes/Blaze/images/americanairline_big.jpg) [![](http://www.blaze.io/wp-content/uploads/2011/06/americanexpress.jpg)](http://www.blaze.io/wp-content/themes/Blaze/images/americanexpress_big.jpg)</div><div style="width: 100%;float: left;clear: both"> </div>### Why Is This Happening?
+<div style="float: left;clear both">[![](http://www.guypo.com/wp-content/uploads/2011/06/accuweather.jpg)](http://www.guypo.com/wp-content/themes/Blaze/images/accuweather_big.jpg) [![](http://www.guypo.com/wp-content/uploads/2011/06/addictinggames.jpg)](http://www.guypo.com/wp-content/themes/Blaze/images/addictinggames_big.jpg) [![](http://www.guypo.com/wp-content/uploads/2011/06/americanairline.jpg)](http://www.guypo.com/wp-content/themes/Blaze/images/americanairline_big.jpg) [![](http://www.guypo.com/wp-content/uploads/2011/06/americanexpress.jpg)](http://www.guypo.com/wp-content/themes/Blaze/images/americanexpress_big.jpg)</div><div style="width: 100%;float: left;clear: both"> </div>### Why Is This Happening?
 
 The obvious reason for this finding is that Android tablets are newer and site owners have not gotten around to supporting them. Their sites detect an Android device requesting the page and assume it’s a small screen phone when really it was a 10 inch tablet.
 
@@ -47,9 +47,9 @@ As a part of the same study, we also measured the load time on these sites on th
 Since we use the embedded browser, we couldn’t safely compare performance between Android and iOS, so we kept our comparisons to be within the same OS (see more about our methodology below). Our goal was to assess the impact of new hardware on browsing speed. We only compared sites that returned the same content to all devices, to be sure we’re comparing apples to apples (and Androids to Androids).
 
 The newest devices seemed to make an impact. iPad 2 was on average 24% faster than iPhone 4, and 19% faster than iPad 1. This trend matches the CPU power on these devices, as while iPhone 4 and iPad 1 use the same CPU, the iPhone CPU is presumed to be underclocked. iPad 2 sports a dual-core CPU (doubling processing power) and a better GPU, adding up to a significant impact.  
-[![](http://www.blaze.io/wp-content/uploads/2011/06/applespeed.jpg)](http://www.blaze.io/wp-content/uploads/2011/06/applespeed.jpg)  
+[![](http://www.guypo.com/wp-content/uploads/2011/06/applespeed.jpg)](http://www.guypo.com/wp-content/uploads/2011/06/applespeed.jpg)  
  Comparison of the Android devices showed a similar 25% improvement between the XOOM and the Nexus S. In this case the devices are also running different versions of the OS, as Android 3.0 is a tablet-only OS. Between the new hardware and the newer version, the already fast browser was significantly improved.  
-[![](http://www.blaze.io/wp-content/uploads/2011/06/androidspeed.jpg)](http://www.blaze.io/wp-content/uploads/2011/06/androidspeed.jpg)
+[![](http://www.guypo.com/wp-content/uploads/2011/06/androidspeed.jpg)](http://www.guypo.com/wp-content/uploads/2011/06/androidspeed.jpg)
 
 ### Comparing User Wait Time
 
@@ -58,15 +58,15 @@ When comparing the performance of the different devices, we intentionally limite
 For Android, this comparison yielded roughly the same results. This was expected, as have we’ve noted practically all sites returned the same content to the Android phone and tablet. Therefore, users browsing on the XOOM would enjoy pages loading 25% faster.
 
 For iOS, we saw that iPhone loaded pages 12% faster than the iPad 2, despite the fact the iPad 2 hardware was much faster. The average page size on the iPhone was also more than 40% smaller – about 370K for iPhone compared to 620K for iPad 2. This shows that while the improved hardware helped, the richer websites served to the iPad are considerably slower, and users will have to wait longer for pages to load.  
-[![](http://www.blaze.io/wp-content/uploads/2011/06/applespeed2.jpg)](http://www.blaze.io/wp-content/uploads/2011/06/applespeed2.jpg)
+[![](http://www.guypo.com/wp-content/uploads/2011/06/applespeed2.jpg)](http://www.guypo.com/wp-content/uploads/2011/06/applespeed2.jpg)
 
 ### Methodology
 
-To perform our study, we used the [Mobitest](http://www.blaze.io/mobile/) technology for measuring and collecting data. We recently added tablets to Mobitest, allowing for these new insights. Mobitest uses the embedded browser of each platform for measurements. Our measurements were all taken during night time, over a WiFi connection from our Ottawa, Canada lab. For each device, we measured each site 3 times. Each time we loaded the page 3 times, and took the median load time. We then averaged those results to achieve the final numbers. Measuring at night and many times helps reduce the variability caused by the network, and achieve more accurate results.
+To perform our study, we used the [Mobitest](http://mobitest.akamai.com/) technology for measuring and collecting data. We recently added tablets to Mobitest, allowing for these new insights. Mobitest uses the embedded browser of each platform for measurements. Our measurements were all taken during night time, over a WiFi connection from our Ottawa, Canada lab. For each device, we measured each site 3 times. Each time we loaded the page 3 times, and took the median load time. We then averaged those results to achieve the final numbers. Measuring at night and many times helps reduce the variability caused by the network, and achieve more accurate results.
 
 To identify a mobile site, we measured the same pages on IE8, and compared the number of resources on each page in both cases. If the page served to the phone or tablet had at least 30 resources less than the same URL on IE8, it was marked as mobile. We then manually reviewed the results, and saw that this heuristic is accurate +/- 5%. Sites that were simple on the desktop too were missed, but otherwise the heuristic was deemed good enough to use.
 
 Note that Apple has stated that their embedded browser (UIWebView) is more limited than Mobile Safari, which may have some impact on the load times. We therefore avoided comparing load times between Android and iOS, and only compared devices within the same OS family. We still hope Apple addresses the limitations of the mobile browser – maybe in iOS 5?  
- Mobitest is a free and open web service, allowing everyone to run their own tests. For any questions and for access to the raw data, [please contact us](http://www.blaze.io/contact/).
+ Mobitest is a free and open web service, allowing everyone to run their own tests. For any questions and for access to the raw data, [please contact us](http://www.guypo.com/contact/).
 
 

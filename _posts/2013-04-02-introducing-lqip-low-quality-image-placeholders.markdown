@@ -65,7 +65,7 @@ LQIP implementation includes three parts:
 
 Step #1 varies greatly by your system. You can create the images in your CMS systems, duplicate them in your build system, or adjust quality in real-time using tools like [Akamai Edge Image Manipulation](http://www.akamai.com/service).
 
-Step #2 is simple – just load the images. You can do so with simple img tags, CSS, or using your favorite scripted image loader. If you use small enough images, you can even inline images (matches Ilya’s [recommendations](https://docs.google.com/presentation/d/1qbqqcfjz3YwocRZu2led3CzhjHjcTvvQVSYET0QYyL4/edit?forcehl=1&hl=en#slide=id.g33a803cd_4_64)). In Akamai, we use LQIP in combination with [loading images on-demand](http://www.guypo.com/technical/the-impact-of-image-optimization/), reducing the number of requests as well.
+Step #2 is simple – just load the images. You can do so with simple img tags, CSS, or using your favorite scripted image loader. If you use small enough images, you can even inline images (matches Ilya’s [recommendations](https://docs.google.com/presentation/d/1qbqqcfjz3YwocRZu2led3CzhjHjcTvvQVSYET0QYyL4/edit?forcehl=1&hl=en#slide=id.g33a803cd_4_64)). In Akamai, we use LQIP in combination with [loading images on-demand](http://www.guypo.com/the-impact-of-image-optimization/), reducing the number of requests as well.
 
 Step #3 is where a new script probably comes in. A simple flow would be:
 

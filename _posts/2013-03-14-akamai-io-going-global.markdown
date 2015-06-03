@@ -42,7 +42,7 @@ In the old data stream, we ironed out most of the big issues, but on the new str
 
 ## Slow but Determined
 
-It’s been almost 9 months since we [launched Akamai IO](http://www.guypo.com/technical/akamai-io-the-akamai-internet-observatory/) at Velocity US 2012. When we did, we shared our plans to make it bigger and better over time. These ranged from getting a broader data sample, through adding more types of information, to adding APIs to access the data.
+It’s been almost 9 months since we [launched Akamai IO](http://www.guypo.com/akamai-io-the-akamai-internet-observatory/) at Velocity US 2012. When we did, we shared our plans to make it bigger and better over time. These ranged from getting a broader data sample, through adding more types of information, to adding APIs to access the data.
 
 I wanted to clarify that all of these plans are still in place – we’re not moving them forward quite as fast as planned. Know that we are still committed to and investing in Akamai IO, even if we’ve been a bit slow.
 

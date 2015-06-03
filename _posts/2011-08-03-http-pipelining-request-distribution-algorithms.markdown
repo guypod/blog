@@ -5,7 +5,7 @@ date: '2011-08-03 11:01:30'
 ---
 
 
-This is a follow-up post to the review of [HTTP Pipelining in Mobile](http://www.blaze.io/mobile/http-pipelining-big-in-mobile/).
+This is a follow-up post to the review of [HTTP Pipelining in Mobile](http://mobitest.akamai.com/http-pipelining-big-in-mobile/).
 
 HTTP pipelining introduces an interesting dilemma to the browsers which support it: How should they distribute the requests across the different connections and pipes?
 
@@ -50,7 +50,7 @@ Once deciding to pipe the request, we’ve observed two approaches, which we dub
 
 Figure 1: Fill First
 
-[![](http://www.blaze.io/wp-content/uploads/2011/08/figure1-small.png)](http://www.blaze.io/wp-content/uploads/2011/08/figure1.png)  
+[![](http://www.guypo.com/wp-content/uploads/2011/08/figure1-small.png)](http://www.guypo.com/wp-content/uploads/2011/08/figure1.png)  
  Android and Firefox (with pipelining enabled) use the “Fill First” approach. Figure 1 shows Firefox loading our test page, where each resource takes 1 second to be generated. Firefox first opens a connection per host to verify server support, and then pipes the next consecutive requests on the same connection.
 
 Figure 1 shows Firefox “Fill First” approach
@@ -59,7 +59,7 @@ Figure 1 shows Firefox “Fill First” approach
 
 Figure 2: Distribute First
 
-[![](http://www.blaze.io/wp-content/uploads/2011/08/figure2-small.png)](http://www.blaze.io/wp-content/uploads/2011/08/figure2.png)
+[![](http://www.guypo.com/wp-content/uploads/2011/08/figure2-small.png)](http://www.guypo.com/wp-content/uploads/2011/08/figure2.png)
 
 All the Opera browsers (Mini, Mobile and Desktop) use the “Distribute First” approach. Figure 2 shows Opera loading the same test page. Note that all the requests start at the same time, and return roughly in the order they’re listed on the page.
 
@@ -71,7 +71,7 @@ While it’s hard to tell which approach will yield the fastest page load, the �
 
 Figure 3: Opera Mobile
 
-[![](http://www.blaze.io/wp-content/uploads/2011/08/figure3-small.png)](http://www.blaze.io/wp-content/uploads/2011/08/figure3.png)
+[![](http://www.guypo.com/wp-content/uploads/2011/08/figure3-small.png)](http://www.guypo.com/wp-content/uploads/2011/08/figure3.png)
 
 We’ve observed a surprising behavior on Opera Mobile. On a page with 40 same-domain resources (and nothing else), Opera Mobile piped 11 (!!!) requests on the first connection, but did no pipelining on the latter. Figure 3 shows the resulting waterfall chart.
 
@@ -88,7 +88,7 @@ Having it off by default likely means an extremely small number of users actuall
 Figure 4:   
 Firefox “about:config” pipelining options
 
-[![](http://www.blaze.io/wp-content/uploads/2011/08/figure4.png)](http://www.blaze.io/wp-content/uploads/2011/08/figure4.png)
+[![](http://www.guypo.com/wp-content/uploads/2011/08/figure4.png)](http://www.guypo.com/wp-content/uploads/2011/08/figure4.png)
 
 ### Summary
 

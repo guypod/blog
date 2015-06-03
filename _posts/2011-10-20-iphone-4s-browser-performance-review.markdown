@@ -5,7 +5,7 @@ date: '2011-10-20 10:44:23'
 ---
 
 
-After [reviewing Apple’s latest software update in iOS 5](http://www.blaze.io/mobile/ios5-top10-performance-changes/), we wanted to test the new hardware as well. We got an iPhone 4S as soon as it was released, and ran it through a battery of measurements.
+After [reviewing Apple’s latest software update in iOS 5](http://mobitest.akamai.com/ios5-top10-performance-changes/), we wanted to test the new hardware as well. We got an iPhone 4S as soon as it was released, and ran it through a battery of measurements.
 
 Before digging into the results, a reminder about the hardware differences. In a nutshell, iPhone 4S doubled both the CPU and GPU capacity.  
   
@@ -36,7 +36,7 @@ Here are the results, measured in Frames Per Second (FPS):
 
 After all the benchmarks, we also measured page load time of the Alexa Top 500 Sites in the US on both phones. iPhone 4S showed significant improvements here as well.
 
-These measurements were performed using [Mobitest](http://www.blaze.io/mobile/), which uses UIWebView, and were performed over a fast WiFi network overnight. The goal was to measure performance differences, mitigating network effects as much as possible. Each page was measured 3 times on each device, and the suite of tests was run twice, adding up to 6,000 measurements in total.
+These measurements were performed using [Mobitest](http://mobitest.akamai.com/), which uses UIWebView, and were performed over a fast WiFi network overnight. The goal was to measure performance differences, mitigating network effects as much as possible. Each page was measured 3 times on each device, and the suite of tests was run twice, adding up to 6,000 measurements in total.
 
 On average, iPhone 4S was 13% faster in loading pages, compared to the iPhone 4 (both running iOS 5). This delta was very consistent across the two sets of tests, but the iPhone 4S was faster only on 60% of the pages. This is likely because the performance improvements would only manifest on sites built in a certain way, for instance heavy JavaScript sites or sites rich with images.
 

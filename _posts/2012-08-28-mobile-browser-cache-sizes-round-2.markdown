@@ -5,7 +5,7 @@ date: '2012-08-28 17:44:37'
 ---
 
 
-Just over a year ago [I posted the results](http://www.guypo.com/mobile/understanding-mobile-cache-sizes/) of my research about Mobile Browser cache sizes. At the time, there was general consensus mobile browser cache was small, but a lack of concrete numbers to support it. I created some cookie-based measurement tool, which helped confirm mobile browser cache sizes were indeed far smaller than desktop browsers.
+Just over a year ago [I posted the results](http://www.guypo.com/understanding-mobile-cache-sizes/) of my research about Mobile Browser cache sizes. At the time, there was general consensus mobile browser cache was small, but a lack of concrete numbers to support it. I created some cookie-based measurement tool, which helped confirm mobile browser cache sizes were indeed far smaller than desktop browsers.
 
 A lot has changed since then. Google shipped Chrome for Android, which [explicitly stated](http://gent.ilcore.com/2012/02/chrome-fast-for-android.html) it addressed the small cache size. Android’s native browser has also improved dramatically, as did Apple’s Mobile Safari. In addition, Firefox released an Android browser, and both Google and Yahoo released hybrid browsers for iOS (Chrome for iOS and Yahoo Axis), which mix Apple’s UIWebView with some of their own software.
 
@@ -65,7 +65,7 @@ I did try to test the Playbook’s browser, but my tests indicated it has no mem
 
 ## Methodology
 
-The detailed methodology is the same one [I used in my tests last year](http://www.guypo.com/mobile/understanding-mobile-cache-sizes/#methodology). In a nutshell, it primes the cache by loading a sequence of pages (each page loads the next one). Each page holds 4 scripts weighing 256 KB each. All the scripts are cacheable, and the HTTP response of the script sets a unique value to the cookie “A”.
+The detailed methodology is the same one [I used in my tests last year](http://www.guypo.com/understanding-mobile-cache-sizes/#methodology). In a nutshell, it primes the cache by loading a sequence of pages (each page loads the next one). Each page holds 4 scripts weighing 256 KB each. All the scripts are cacheable, and the HTTP response of the script sets a unique value to the cookie “A”.
 
 Once the cache is primed, the pages load each other in reverse order, and compare the value of “A” at the beginning and end of the page load. If the resources are loaded from cache, nothing changes the cookie value and it remains the same. If at least one of the resources is fetched over the network, the cookie value changes, marking the end of the cache (with a resolution of 1 MB).
 

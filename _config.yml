@@ -3,8 +3,8 @@ title:       Guy's Pod
 email:
 author:      Guy Podjarny
 description: "Thoughts and research on Web Performance & Security"
-baseurl:     "/blog"
-url:         "http://guypo.com/"
+baseurl:     ""
+url:         "http://www.guypo.com/"
 
 # Google analytics
 google_analytics: UA-32373758-1
@@ -50,10 +50,11 @@ share_hackernews: false
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     3
+permalink:    /:title
+paginate:     8
 
 sass:
-  compressed: true
-sass:
   style: compressed
+
+gems:
+  - jekyll-redirect-from

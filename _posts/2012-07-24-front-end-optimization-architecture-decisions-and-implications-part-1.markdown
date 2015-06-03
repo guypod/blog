@@ -5,7 +5,7 @@ date: '2012-07-24 16:07:50'
 ---
 
 
-**Update:***The follow-up post after reading this one ([Part 2](http://www.guypo.com/technical/front-end-optimization-architecture-decisions-and-implications-part-2/)) is now posted [here](http://www.guypo.com/technical/front-end-optimization-architecture-decisions-and-implications-part-2/).*
+**Update:***The follow-up post after reading this one ([Part 2](http://www.guypo.com/front-end-optimization-architecture-decisions-and-implications-part-2/)) is now posted [here](http://www.guypo.com/front-end-optimization-architecture-decisions-and-implications-part-2/).*
 
 In the last Velocity, Pat Meenan gave a presentation reviewing [Front-End Optimization (FEO)](http://velocityconf.com/velocity2012/public/schedule/detail/22973). Pat did a great job discussing when you should use an automated solution, pointing out some of the strengths and weaknesses, and offering his thoughts about cloud-based vs on-premise solutions. One thing Pat didn’t cover is the core architecture of the FEO solution – namely where and how the analysis is performed. Since FEO has been at the center of my life for the past few years, I wanted to share my thoughts on the architecture aspects that matter.
 
@@ -38,27 +38,27 @@ Throughout this blog post I’ll describe various cases where FEO solutions can 
 
 </td></tr><tr><td bgcolor="#28ACD3">**Resource Origin**
 
-</td><td>[Only Local Resources](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#origin)
+</td><td>[Only Local Resources](/front-end-optimization-architecture-decisions-and-implications-part-2/#origin)
 
-</td><td>[All Resources](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#origin)
+</td><td>[All Resources](/front-end-optimization-architecture-decisions-and-implications-part-2/#origin)
 
 </td></tr><tr><td bgcolor="#28ACD3">**Resource Storage**
 
-</td><td>[Local Cache](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#storage)
+</td><td>[Local Cache](/front-end-optimization-architecture-decisions-and-implications-part-2/#storage)
 
-</td><td>[Central Persistent Storage](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#storage)
+</td><td>[Central Persistent Storage](/front-end-optimization-architecture-decisions-and-implications-part-2/#storage)
 
 </td></tr><tr><td bgcolor="#28ACD3">**Data Source**
 
-</td><td>[Real User Traffic](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#source)
+</td><td>[Real User Traffic](/front-end-optimization-architecture-decisions-and-implications-part-2/#source)
 
-</td><td>[Pulled Content](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#source)
+</td><td>[Pulled Content](/front-end-optimization-architecture-decisions-and-implications-part-2/#source)
 
 </td></tr><tr><td bgcolor="#28ACD3">**Upgrade Model**
 
-</td><td>[All-in-one Upgrade](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#upgrade)
+</td><td>[All-in-one Upgrade](/front-end-optimization-architecture-decisions-and-implications-part-2/#upgrade)
 
-</td><td>[Split Upgrade](/technical/front-end-optimization-architecture-decisions-and-implications-part-2/#upgrade)
+</td><td>[Split Upgrade](/front-end-optimization-architecture-decisions-and-implications-part-2/#upgrade)
 
 </td></tr></tbody></table>This is a long list, and explaining each item in detail will make this post way too long. I therefore decided to split it in two. This post – Part 1 – will deal with the first three items, and the next one (to be posted next week) will cover the rest.
 

@@ -5,9 +5,9 @@ date: '2012-08-01 14:02:02'
 ---
 
 
-Last week I posted the [first part](http://www.guypo.com/technical/front-end-optimization-architecture-decisions-and-implications-part-1/) of reviewing the architecture aspects of Front-End Optimization, and their impact. The purpose of that post (and this one) is to give you better insight into how FEO tools work, so you can make a more informed decision when considering using one.
+Last week I posted the [first part](http://www.guypo.com/front-end-optimization-architecture-decisions-and-implications-part-1/) of reviewing the architecture aspects of Front-End Optimization, and their impact. The purpose of that post (and this one) is to give you better insight into how FEO tools work, so you can make a more informed decision when considering using one.
 
-If you haven’t done so already, check out [last week’s post](http://www.guypo.com/technical/front-end-optimization-architecture-decisions-and-implications-part-1/) to learn about inline vs. offline analysis, central vs. local analysis, and optimizing close to the client vs close to the server. In this post, I’ll discuss the remaining 4 items in the table below.
+If you haven’t done so already, check out [last week’s post](http://www.guypo.com/front-end-optimization-architecture-decisions-and-implications-part-1/) to learn about inline vs. offline analysis, central vs. local analysis, and optimizing close to the client vs close to the server. In this post, I’ll discuss the remaining 4 items in the table below.
 
 <table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td width="40%">**Architecture Decision**
 
@@ -15,21 +15,21 @@ If you haven’t done so already, check out [last week’s post](http://www.guyp
 
 </td></tr><tr><td width="40%">**Analysis Time**
 
-</td><td width="30%">[Inline](/technical/front-end-optimization-architecture-decisions-and-implications-part-1/#offline)
+</td><td width="30%">[Inline](/front-end-optimization-architecture-decisions-and-implications-part-1/#offline)
 
-</td><td width="30%">[Offline](/technical/front-end-optimization-architecture-decisions-and-implications-part-1/#offline)
+</td><td width="30%">[Offline](/front-end-optimization-architecture-decisions-and-implications-part-1/#offline)
 
 </td></tr><tr><td>**Analysis Location**
 
-</td><td>[Local (on proxy)](/technical/front-end-optimization-architecture-decisions-and-implications-part-1/#a-location)
+</td><td>[Local (on proxy)](/front-end-optimization-architecture-decisions-and-implications-part-1/#a-location)
 
-</td><td>[Central](/technical/front-end-optimization-architecture-decisions-and-implications-part-1/#a-location)
+</td><td>[Central](/front-end-optimization-architecture-decisions-and-implications-part-1/#a-location)
 
 </td></tr><tr><td>**Optimization Location**
 
-</td><td>[Close to Server](/technical/front-end-optimization-architecture-decisions-and-implications-part-1/#o-location)
+</td><td>[Close to Server](/front-end-optimization-architecture-decisions-and-implications-part-1/#o-location)
 
-</td><td>[Close to Client](/technical/front-end-optimization-architecture-decisions-and-implications-part-1/#o-location)
+</td><td>[Close to Client](/front-end-optimization-architecture-decisions-and-implications-part-1/#o-location)
 
 </td></tr><tr><td>**Resource Origin**
 

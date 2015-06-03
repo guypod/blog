@@ -5,7 +5,7 @@ date: '2011-05-06 15:48:11'
 ---
 
 
-[![](http://www.blaze.io/wp-content/uploads/2011/05/bigmscore60.png)](http://www.blaze.io/mobile/)It’s been almost 3 months since we launched [Mobitest](http://www.blaze.io/mobile/), and we’ve learned a lot in that time. The service is getting used more and more, and it’s always nice to see the phones get hyper-active when we get a mention in some presentation 😉
+[![](http://www.guypo.com/wp-content/uploads/2011/05/bigmscore60.png)](http://mobitest.akamai.com/)It’s been almost 3 months since we launched [Mobitest](http://mobitest.akamai.com/), and we’ve learned a lot in that time. The service is getting used more and more, and it’s always nice to see the phones get hyper-active when we get a mention in some presentation 😉
 
 By now the service is more robust, and we’ve officially removed the Beta mark – coinciding with the Blaze product leaving Beta. At the same time, we gathered up some statistics to share from the tests submitted.
 

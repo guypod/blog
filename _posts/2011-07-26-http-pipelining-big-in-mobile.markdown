@@ -89,6 +89,6 @@ If you have a mobile website, HTTP pipelining is a part of your reality – whet
  Opening more connections is more costly than pipelining (especially on Mobile), and Android relies on pipelining so much it opens very few connections.
 5. **Test your site.**  
  For desktop, download and run Opera and enable Firefox pipelining.  
- For mobile, tools like [http://blaze.io/mobile/](http://blaze.io/mobile/), simulators and more can help.
+ For mobile, tools like [http://mobitest.akamai.com/](http://mobitest.akamai.com/), simulators and more can help.
 
 

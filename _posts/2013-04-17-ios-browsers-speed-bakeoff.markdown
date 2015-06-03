@@ -43,7 +43,7 @@ Whatever the reason, the embedded and native browsers were not equals, and are s
 
 ## What the Benchmarks said
 
-Based on benchmarks, the impact is dramatic. JavaScript Benchmark such as SunSpider are [3x faster on MobileSafari compared to UIWebView](http://www.guypo.com/mobile/ios5-top10-performance-changes/), implying that browsing a page inside your Twitter or Yelp app would be painfully slow.
+Based on benchmarks, the impact is dramatic. JavaScript Benchmark such as SunSpider are [3x faster on MobileSafari compared to UIWebView](http://www.guypo.com/ios5-top10-performance-changes/), implying that browsing a page inside your Twitter or Yelp app would be painfully slow.
 
 Real websites, however, are not benchmarks. We already know that [hardware improvements impact benchmarks more than page load times](http://www.slideshare.net/guypod/the-mobile-difference-in-numbers/11), and can expect the same to be true in this case. In addition, cellular performance isn’t all that great, and if the network is the bottleneck, browser differences may have less of an impact.
 

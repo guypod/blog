@@ -5,7 +5,7 @@ date: '2012-02-22 10:18:43'
 ---
 
 
-![](http://www.blaze.io/wp-content/uploads/2012/02/chrome_logo.gif)A few weeks ago Google released a [beta version of Chrome for Android](https://market.android.com/details?id=com.android.chrome&hl=en), which is substantially different than the built-in Android browser. It offers some cool new features, which are outlined quite well in the [videos on the Chromium blog](http://blog.chromium.org/2012/02/deeper-look-at-chrome-for-android.html). Both [Sencha](http://www.sencha.com/blog/html5-scorecard-chrome-mobile-beta/) and [Firt](http://www.mobilexweb.com/blog/google-chrome-android-html5) reviewed and had high praise for it’s HTML5 support and more.
+![](http://www.guypo.com/wp-content/uploads/2012/02/chrome_logo.gif)A few weeks ago Google released a [beta version of Chrome for Android](https://market.android.com/details?id=com.android.chrome&hl=en), which is substantially different than the built-in Android browser. It offers some cool new features, which are outlined quite well in the [videos on the Chromium blog](http://blog.chromium.org/2012/02/deeper-look-at-chrome-for-android.html). Both [Sencha](http://www.sencha.com/blog/html5-scorecard-chrome-mobile-beta/) and [Firt](http://www.mobilexweb.com/blog/google-chrome-android-html5) reviewed and had high praise for it’s HTML5 support and more.
 
 Chrome has always focused on speed, and this time is no exception. The new browser includes features like prerendering content while you search, GPU-accelerated rendering, [Chrome Performance Timing API](http://ecmanaut.blogspot.com/2010/06/google-bom-feature-ms-since-pageload.html) and more. More specifically, Chrome for Android seems to support SPDY (see figure #1), making it the first Mobile browser to do so.
 
@@ -16,14 +16,14 @@ A couple of disclaimers before I dig deeper:
 1. I love SPDY. I think it’s a creative and powerful solution to many problems. I have a lot of criticism about it, but it’s meant to spark conversation and make it better in the long run, not to make it go away.
 2. The concerns below are based on theory, not hard data. In fact, the lack of hard data is one of my rants, as you’ll see through the post.
 
-[![](http://www.blaze.io/wp-content/uploads/2012/02/spdy-graphic-smaller.png)](http://www.blaze.io/?attachment_id=3225)
+[![](http://www.guypo.com/wp-content/uploads/2012/02/spdy-graphic-smaller.png)](http://www.guypo.com/?attachment_id=3225)
 
 
 ## Request Multiplexing
 
 Possibly the most important feature of SPDY is request multiplexing. HTTP traditionally sends requests one after the other, waiting for each request’s response before continuing. This behavior introduces significant delays, especially on high-latency networks like mobile networks, as both the server and client spend a long time waiting for data to travel on the network.
 
-HTTP Pipelining helps mitigate this problem, and is indeed [broadly used in Mobile browsers](../mobile/http-pipelining-big-in-mobile/). However, it is still limited in various ways, and introduces concerns such as [head-of-line-blocking](http://en.wikipedia.org/wiki/Head-of-line_blocking).
+HTTP Pipelining helps mitigate this problem, and is indeed [broadly used in Mobile browsers](../http-pipelining-big-in-mobile/). However, it is still limited in various ways, and introduces concerns such as [head-of-line-blocking](http://en.wikipedia.org/wiki/Head-of-line_blocking).
 
 SPDY offers a better solution, where the client can make multiple requests, and get their responses in any order. This way the client and server waste less time waiting for data, without risking having slow responses delay fast ones. SPDY’s solution is an improved version of HTTP pipelining, and there’s little doubt in my mind it’ll be a great improvement for mobile.
 

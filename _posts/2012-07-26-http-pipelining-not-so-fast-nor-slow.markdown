@@ -19,7 +19,7 @@ If you don’t have time to read through the details, here are the bottom line r
 - I believe the main reasons for pages not being faster are: - Many different domains on a page (hence few requests are piped)
 - Other front-end bottlenecks (e.g. blocking scripts)
 
-This is fairly consistent with the findings I saw in my [recent SPDY performance evaluation](http://www.guypo.com/technical/not-as-spdy-as-you-thought/). I believe the same underlying reasons (many domains, other front-end bottlenecks) are holding back both protocol optimizations.
+This is fairly consistent with the findings I saw in my [recent SPDY performance evaluation](http://www.guypo.com/not-as-spdy-as-you-thought/). I believe the same underlying reasons (many domains, other front-end bottlenecks) are holding back both protocol optimizations.
 
 
 ## First Test – Firefox 13, Pipelining on/off, Varying network speeds
@@ -35,7 +35,7 @@ The results are shown in the graphs below, showing average load times with and w
 
 ## Pipelining Implementation Is Complicated
 
-Pipelining, while conceptually simple, actually leaves a lot of room for implementation details. [Last year I highlighted a few key implementation decisions](http://www.guypo.com/technical/http-pipelining-request-distribution-algorithms/). Here’s a refresh on a couple of them.
+Pipelining, while conceptually simple, actually leaves a lot of room for implementation details. [Last year I highlighted a few key implementation decisions](http://www.guypo.com/http-pipelining-request-distribution-algorithms/). Here’s a refresh on a couple of them.
 
 **Server Support Detection: **Using pipelining requires a server that supports HTTP/1.1 and a persistent connection. Because of that, many browsers don’t pipe right away on a new connection. Instead, they send a single request, wait to see that the response is an HTTP/1.1 response with a keep-alive connection, and only start piping requests then. This means they **validate support per connection.**
 
@@ -118,7 +118,7 @@ There are three reasons I see for pipelining not coming into play:
 
 HTTP Pipelining, while it should help in theory, doesn’t seem to make browsing the web faster. The reasons vary, but simply put, the real web got in the way of a protocol optimization… Websites today are complicated beasts, network proxies don’t behave as they should, and accelerating in this context is not a simple feat. Subbu Allamar recently [reached a similar a similar conclusion](http://www.subbu.org/blog/2012/07/http-pipelining-hit-and-miss) from his own set of tests.
 
-One response to that could be to just use SPDY, with true multiplexing. However, SPDY requires SSL (which has performance costs), and [does not address all bottlenecks either](http://www.guypo.com/technical/not-as-spdy-as-you-thought/). Either way, in my opinion, **these protocol optimizations will have little effect until we start building optimizations that accelerate across domains, and address front-end bottlenecks**. Websites are not going to use less domains – domain sharding is still a good optimization on old browsers, and 3rd party widgets are being used more and more.  Similarly, front-end bottlenecks will stick around until all web software is made perfect…
+One response to that could be to just use SPDY, with true multiplexing. However, SPDY requires SSL (which has performance costs), and [does not address all bottlenecks either](http://www.guypo.com/not-as-spdy-as-you-thought/). Either way, in my opinion, **these protocol optimizations will have little effect until we start building optimizations that accelerate across domains, and address front-end bottlenecks**. Websites are not going to use less domains – domain sharding is still a good optimization on old browsers, and 3rd party widgets are being used more and more.  Similarly, front-end bottlenecks will stick around until all web software is made perfect…
 
 Making pipelining more effective won’t be easy, but I can offer two suggestions:
 

@@ -27,7 +27,7 @@ Websites often cache the page resources (images, CSS files, JavaScript files) fo
 
 So how can you make your return visits as fast as your repeat visits?
 
-- Use long-term caching. [Steve Souders](http://stevesouders.com/) and [other experts](http://www.phpied.com/caching-vs-inlining/) have long been touting the value of far-future expires headers, and techniques like [Versioning](http://www.blaze.io/optimizations/#versioning) can help avoid stale cache.
+- Use long-term caching. [Steve Souders](http://stevesouders.com/) and [other experts](http://www.phpied.com/caching-vs-inlining/) have long been touting the value of far-future expires headers, and techniques like [Versioning](http://www.guypo.com/optimizations/#versioning) can help avoid stale cache.
 - Start measuring return visit times. To do our study we used a modified version of the terrific [Webpagetest](http://www.webpagetest.org/) tool, and have started working with [Patrick Meenan](http://blog.patrickmeenan.com/) on integrating these changes into the public version. We hope to see commercial tools such as like [Keynote](http://www.keynote.com/), [Gomez](http://www.gomez.com/) & [BrowserMob](http://browsermob.com/performance-testing) incorporate return visit measurements as well.
 
 ### For the data hungry reader…

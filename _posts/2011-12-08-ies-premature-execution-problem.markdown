@@ -46,7 +46,7 @@ The trigger to make IE execute the script prematurely is appending it to a paren
 
 </div> 
 
-In all browsers but IE, the code above will not even download notify.js. In IE, the code is supposed to only fetch it. But in reality, the script is downloaded and executed in IE. If you want to see a complete HTML, you can find an HTML performing and logging a few actions [here](http://www.blaze.io/experiments/ie-preexec.htm).
+In all browsers but IE, the code above will not even download notify.js. In IE, the code is supposed to only fetch it. But in reality, the script is downloaded and executed in IE. If you want to see a complete HTML, you can find an HTML performing and logging a few actions [here](http://www.guypo.com/experiments/ie-preexec.htm).
 
 A few more details:
 
@@ -57,7 +57,7 @@ A few more details:
 
 ## The Inevitable Bugs
 
-This type of weird behaviour often comes with various subtle bugs it creates, or at least inconsistencies. I did some digging, and saw a few quirks you should be on the lookout for. Most of these are represented in [this example page](http://www.blaze.io/experiments/ie-preexec.htm).
+This type of weird behaviour often comes with various subtle bugs it creates, or at least inconsistencies. I did some digging, and saw a few quirks you should be on the lookout for. Most of these are represented in [this example page](http://www.guypo.com/experiments/ie-preexec.htm).
 
 ### readyState updated before DOM Insertion
 
