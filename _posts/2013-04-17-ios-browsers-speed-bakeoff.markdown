@@ -80,7 +80,9 @@ When comparing to Chrome, the results repeated the previous pattern. On a good c
 
 #### On how many websites was Mobile Safari significantly (10%+) faster?
 
-<table id="box-table-a" width="90%"><tbody><tr><th>Mobile Safari vs</th><th>4G Speed</th><th>3G, 5 Bars</th><th>3G, 2 Bars</th></tr><tr><th>UIWebView</th><td>70%</td><td>39%</td><td>17%</td></tr><tr><th>Chrome for iOS</th><td>60%</td><td>10%</td><td>23%</td></tr></tbody></table>On the flip side, Chrome also beat Safari by a large margin in a decent number of cases – 29% under poor conditions, and 16% under average conditions. Under good conditions, only 10% of websites loaded much faster on Chrome.
+<table id="box-table-a" width="90%"><tbody><tr><th>Mobile Safari vs</th><th>4G Speed</th><th>3G, 5 Bars</th><th>3G, 2 Bars</th></tr><tr><th>UIWebView</th><td>70%</td><td>39%</td><td>17%</td></tr><tr><th>Chrome for iOS</th><td>60%</td><td>10%</td><td>23%</td></tr></tbody></table>
+
+On the flip side, Chrome also beat Safari by a large margin in a decent number of cases – 29% under poor conditions, and 16% under average conditions. Under good conditions, only 10% of websites loaded much faster on Chrome.
 
 UIWebView beat Safari by a significant difference in less than 10% of tested sites, less affected by network speed.
 
@@ -132,5 +134,3 @@ The last detail to share is the exact network speeds used in this study. I throt
 - 4G, 5 Bars: 6.8/4.9 Mbps down/up, 29ms latency
 
 If you’re interested in the raw data (they’re slightly complex), you can download it [here](http://www.guypo.com/wp-content/uploads/2013/04/Native-vs-emedded-results-ios6.v4.xlsx).
-
-

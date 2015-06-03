@@ -41,11 +41,11 @@ On a DSL connection speed, LQIP boosted the page visual by about 500ms (~20%), w
 
 The faster visual isn’t the whole story, though. The LQIP page you see actually uses lower quality images than the other. While the LQIP page weighs 80KB less before onload, it weighs 40KB **more** by the time the full quality images were downloaded. However, the page is definitely usable with the low quality images, keeping the user from idly waiting for the bigger download. You can see an example of a regular and low quality image in the table below – I didn’t turn quality down too far.
 
-<table border="1" cellpadding="0" cellspacing="0" style="margin-left: auto; margin-right: auto;" width="90%"><tbody><tr><td valign="top" width="50%">Image Before LQIP (15.6 KB)
+Image Before LQIP (15.6 KB) | Image After LQIP (5.2 KB)
+:--------------------------:|:-------------------------:
+[![lqip-sample-before](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-before_egzl4w.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-before_egzl4w.jpg) | [![lqip-sample-after](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-after_pjihjb.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-after_pjihjb.jpg)
 
-</td><td valign="top" width="50%">Image After LQIP (5.2 KB)
 
-</td></tr><tr><td align="center" valign="top">[![lqip-sample-before](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-before_egzl4w.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-before_egzl4w.jpg)</td><td align="center" valign="top">[![lqip-sample-after](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-after_pjihjb.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082696/lqip-sample-after_pjihjb.jpg)</td></tr></tbody></table>
 ## It’s just intelligent delivery
 
 LQIP also helps on the political front, by bridging the gap between IT/Dev and the designers.
@@ -83,5 +83,3 @@ Lastly, if you use CSS to load your images, you can also swap the low quality im
 I’m pretty excited about LQIP.
 
 It helps bridge the gap between two conflicting and growing needs, would work on old and new browsers alike, and is (relatively) easy to implement. It’s a “perceived performance” optimization, which is how we should all be thinking – and I believe it’s an optimization everybody should apply.
-
-

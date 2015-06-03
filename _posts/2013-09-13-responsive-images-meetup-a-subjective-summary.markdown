@@ -23,7 +23,6 @@ The need for Responsive Images can be broken down into three use-cases:
 Today, responsive images can only be achieved using JavaScript, CSS or server-side detection, which are harder to implement and have performance implications compared to regular img tags. The current efforts by the RICG aim to enhance HTML (or HTTP) to support responsive images without requiring such workarounds. However, there’s more than way to skin this cat…
 
 Here are the primary not-mutually-exclusive alternatives on the table:
-
 - **[Picture](http://picture.responsiveimages.org/)**: an HTML element similar to HTML5’s <video> tag, which uses media-queries to determine which image to load and is uber flexible.
 - **[srcset](http://dev.w3.org/html5/srcset/)**: An <img> tag attribute specifying different URLs to load for a given DPR and possibly resolution.
 - **[Client Hints](https://github.com/igrigorik/http-client-hints)**: HTTP header(s) the browser would send, indicating the client’s DPR (and more), allowing the server to serve the correct image.
@@ -102,5 +101,3 @@ Personally, I arrived at the meetup favoring picture, but left it favoring srcse
 I still think there’s room for Client Hints, especially if you want your images optimized through an automated tool, like Akamai’s FEO or Pagespeed. In addition, Client Hints is useful for more than just responsive images, and we need to judge it based on its complete value, not a specific hint.
 
 All in all, I found the meetup very educational, and – while they were somewhat antagonistic – I saw a fair bit of merit in the implementer remarks. Hopefully you find this summary useful as well.
-
-
