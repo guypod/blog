@@ -61,7 +61,6 @@
     </script>
     {% endif %}
 
-    {% if site.async-fonts %}
     <script>
     // Minified loadCSS method
     function loadCSS(e,n,o,t){"use strict";var d=window.document.createElement("link"),i=n||window.document.getElementsByTagName("script")[0],r=window.document.styleSheets;return d.rel="stylesheet",d.href=e,d.media="only x",t&&(d.onload=t),i.parentNode.insertBefore(d,i),d.onloadcssdefined=function(e){for(var n,o=0;o<r.length;o++)r[o].href&&r[o].href===d.href&&(n=!0);n?e():setTimeout(function(){d.onloadcssdefined(e)})},d.onloadcssdefined(function(){d.media=o||"all"}),d}
@@ -72,19 +71,11 @@
 
 
     // Load the font CSS files
-    loadCSS('//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic');
+    //loadCSS('//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic');
     new FontFaceObserver('Merriweather', {}).check().then(function () {document.documentElement.className += " merriweather-loaded";});
-    loadCSS('//fonts.googleapis.com/css?family=Lato:900,300');
+    //loadCSS('//fonts.googleapis.com/css?family=Lato:900,300');
     new FontFaceObserver('Lato', {}).check().then(function () {document.documentElement.className += " lato-loaded";});
     loadCSS('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css');
     </script>
-    <noscript>
-    {% endif %}
-    <link rel="stylesheet" href="'//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:900,300">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
-    {% if site.async-fonts %}
-    </noscript>
-    {% endif %}
 
 </head>
