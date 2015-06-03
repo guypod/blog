@@ -16,9 +16,6 @@
 body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
-.merriweather-loaded body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
-}
 
 html, body {
   height: 100%;
@@ -184,10 +181,6 @@ table {
   font-weight: 300;
   text-align: center;
 }
-.button .lato-loaded {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 
 .pagination a, .pagination .disabled {
   -webkit-transition: all 0.2s ease-in-out;
@@ -251,10 +244,6 @@ form {
   font-weight: 300;
   font-size: 1rem;
 }
-form .lato-loaded {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 
 textarea.input {
   height: 8em;
@@ -531,10 +520,6 @@ footer .wrap {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   clear: both;
-}
-
-footer .wrap .lato-loaded {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 footer:after {
