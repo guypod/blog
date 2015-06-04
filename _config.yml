@@ -13,7 +13,7 @@ google_analytics: UA-32373758-1
 animated:           false
 show_related_posts: false
 show_post_footers:  false
-inline-css: false
+inline-css: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
