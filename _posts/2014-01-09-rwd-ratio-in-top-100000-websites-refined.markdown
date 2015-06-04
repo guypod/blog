@@ -2,6 +2,7 @@
 layout: post
 title: RWD Ratio in Top 100,000 websites - refined
 date: '2014-01-09 13:56:04'
+redirect_from: "/rwd-2014/"
 ---
 
 
@@ -26,7 +27,15 @@ Let’s get to the numbers.
 At a high level, the results I’ve observed in the top 10,000 websites held in the top 100,000 as well. The following table & chart shows the ratio of RWD sites in different website tiers.  
 [![rwd-adoption-rates-100k](http://res.cloudinary.com/guypo-blog/image/upload/v1431082682/rwd-adoption-rates-100k_tsevg3.png)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082682/rwd-adoption-rates-100k_tsevg3.png)
 
-<table id="box-table-a" width="90%"><tbody><tr><th># RWD Sites, by Tier</th><th>**Responsive**</th><th>**Non-Responsive**</th><th>**RWD Ratio**</th></tr><tr><th>**Top 100**</th><td>10</td><td>85</td><td>10.5%</td></tr><tr><th>**Top 1,000**</th><td>115</td><td>842</td><td>12.0%</td></tr><tr><th>**Top 10,000**</th><td>1,048</td><td>8,414</td><td>11.1%</td></tr><tr><th>**Top 100,000**</th><td>10,510</td><td>82,326</td><td>11.3%</td></tr></tbody></table>As you can see, the ratio holds quite well across the different tiers, although it’s a bit stronger in the top 1,000 websites. Roughly every 9<sup>th</sup> site is marked as responsive, both on the hotetst sites and the long tail of the web.
+
+| # RWD Sites, by Tier |	Responsive |	Non-Responsive |	RWD Ratio |
+|:--------------------:|:-----------:|:---------------:|:----------:|
+|Top 100	| 10 |	85 |	10.5%
+|Top 1,000 |	115	| 842 |	12.0%
+|Top 10,000	| 1,048	| 8,414 |	11.1%
+|Top 100,000 |	10,510 |	82,326 |	11.3%
+
+As you can see, the ratio holds quite well across the different tiers, although it’s a bit stronger in the top 1,000 websites. Roughly every 9<sup>th</sup> site is marked as responsive, both on the hotetst sites and the long tail of the web.
 
 
 ## Hmm… 85+10 = 100?!
@@ -41,5 +50,3 @@ Both of those deltas are due to the filtering of broken pages I mentioned above.
 This test implies Responsive Web Design is no more prevalent on the long tail than it is in the top sites. This may surprise some, since RWD is touted as – amongst other things – a lower cost way to tackle mobile, and so the adoption in the long tail could have been bigger.
 
 In addition, it means there are over 10,000 responsive websites out there. Some people may think that’s slow progress for a 3.5-year-old concept, but I think it’s actually a pretty impressive reach. We don’t know how quickly we got to this point, but at least we can track its adoption going forward.
-
-

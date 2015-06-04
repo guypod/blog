@@ -27,7 +27,7 @@ Each URL test in HA/HAM keeps track, amongst others, of which request was the fi
 
 For every first request, we can see if its response was a redirect.  The following chart shows the percentage of sites that redirected the first request, for both mobile and desktop.
 
-![Redirect-Rate](http://res.cloudinary.com/guypo-blog/image/upload/v1431082686/Redirect-Rate_blitss.jpg)
+<img src="http://res.cloudinary.com/guypo-blog/image/upload/v1431082686/Redirect-Rate_blitss.jpg" style="width:100%" alt="Redirect Rate">
 
 The chart clearly shows two things:
 
@@ -43,7 +43,7 @@ Using HTTP Archive, we can correlate the HAM & HA results and see which URLs wer
 
 Here’s a pretty chart showing % of sites that redirect only on Mobile across all 5K HAM websites and only the top 100:
 
-[![Mobile-Redirect-Rate](http://res.cloudinary.com/guypo-blog/image/upload/v1431082685/Mobile-Redirect-Rate_c4ca5m.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082685/Mobile-Redirect-Rate_c4ca5m.jpg)
+<img src="http://res.cloudinary.com/guypo-blog/image/upload/v1431082685/Mobile-Redirect-Rate_c4ca5m.jpg" style="width:100%" alt="Mobile Redirect Rate">
 
 As you can see, indeed practically the full 20% gap we saw before is explained by mobile redirects. It appears that 19% of websites redirect to a mobile website while 81% do not. Looking at the top 100 websites, which are often more sophisticated, a grander 34% redirect on mobile only.
 
@@ -58,7 +58,8 @@ Since Responsive design is only 3 years old, one way to determine its adoption i
 
 Here’s a chart showing the % of mobile-only redirects between September 1<sup>st</sup>, 2012 and November 1<sup>st</sup>, 2013, for the top 5,000 websites, measured by HAM:
 
-[![Mobile-Redirect-Rate-Over-Time-5K](http://res.cloudinary.com/guypo-blog/image/upload/v1431082686/Mobile-Redirect-Rate-Over-Time-5K_wlhvib.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082686/Mobile-Redirect-Rate-Over-Time-5K_wlhvib.jpg)
+<img src="http://res.cloudinary.com/guypo-blog/image/upload/v1431082686/Mobile-Redirect-Rate-Over-Time-5K_wlhvib.jpg" style="width:100%" alt="Mobile Redirect Rate Over Time 5K">
+
 
 As you can see the % of mobile redirect has barely changed over this year and a bit. It does go from 20% to 19%, but that seems to be within the regular variability of the data.
 
@@ -68,7 +69,7 @@ You may have noticed this data is only for 14 months, while HAM is actually trac
 
 Here’s the chart showing the % of mobile redirects across that entire time period, along with a layover of the number of sites tested:
 
-[![Mobile-Redirect-Rate-Over-Time-All](http://res.cloudinary.com/guypo-blog/image/upload/v1431082687/Mobile-Redirect-Rate-Over-Time-All_ia60lh.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082687/Mobile-Redirect-Rate-Over-Time-All_ia60lh.jpg)
+<img src="http://res.cloudinary.com/guypo-blog/image/upload/v1431082687/Mobile-Redirect-Rate-Over-Time-All_ia60lh.jpg" style="width:100%" alt="Mobile Redirect Rate Over Time All">
 
 As you can see, the percentage of mobile-only redirects slightly decreases with each increase of the number of URLs. This matches what we’ve seen in test #2, where that number was far higher on the top 100 websites than across all 5,000. In addition, the % of redirects remains similar across each period of time with the same number of URLs.
 

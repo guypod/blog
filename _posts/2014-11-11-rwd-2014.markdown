@@ -22,7 +22,11 @@ The chart and graphic below show the percentage of responsive websites amongst t
 
 The adoption rate is noticeably lower in the very top sites. This may be due to costs, as the top sites can more easily pay for multiple separate websites. However, I believe the reason is more the higher agility of the lower tier sites. These sites often have less legacy code or internal politics than the ones at the very top, making the adoption of RWD easier.
 
-<table id="box-table-a" width="90%"><tbody><tr><th></th><th>**Top 100**</th><th>**Top 1K**</th><th>**Top 10K**</th></tr><tr><th>**RWD**</th><td>11.8%</td><td>18.3%</td><td>18.7%</td></tr><tr><th>**Non RWD**</th><td>88.2%</td><td>81.7%</td><td>81.3%</td></tr></tbody></table>
+|            | Top 100 | Top 1,000 | Top 10,000 |
+|:----------:|:-------:|:---------:|:----------:|
+| **RWD**    | 11.8%   | 18.3%     | 18.7%      |
+| **Non RWD**| 88.2%   | 81.7%     | 81.3%      |
+
 ## RWD Adoption Growing Fast
 
 The next chart shows the difference between this year’s results and the test I ran last year. As you can see, adoption has grown substantially in the top 1,000 websites and above. Amongst the top 10,000 websites, almost 8% of websites went responsive within the span of a single year – an incredible growth!

@@ -23,7 +23,7 @@ And so, I went ahead and automated a test.
 
 ## Testing The Test
 
-I wrote a small piece of JavaScript that compares the *window.innerWidth *value to the *scrollWidth* of the top elements on the page. If *scrollWidth *was bigger– the site was marked as not responsive.
+I wrote a small piece of JavaScript that compares the *window.innerWidth* value to the *scrollWidth* of the top elements on the page. If *scrollWidth* was bigger– the site was marked as not responsive.
 
 I then used [WebPageTest](http://www.webpagetest.org/)’s [exec script command](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/scripting#TOC-exec) to load up a bunch of sites and run this test on them. I used the websites tested by the [HTTP Archive](http://httparchive.org/) as my sample set, as it lists websites in order of popularity across the web.
 
@@ -40,9 +40,16 @@ For the full test, I ran the same setup on the top 10,000 websites, loading them
 
 The following table and chart show the number and ratio of responsive websites for the full list, as well as the top 100 and top 1,000 websites.
 
-[![top-sites-rwd](http://www.guypo.com/wp-content/uploads/2013/12/top-sites-rwd.png)](http://www.guypo.com/wp-content/uploads/2013/12/top-sites-rwd.png)
+[![top-sites-rwd](http://res.cloudinary.com/guypo-blog/image/upload/v1431082683/top-sites-rwd_tiimfe.jpg)](http://res.cloudinary.com/guypo-blog/image/upload/v1431082683/top-sites-rwd_tiimfe.png)
 
-<table id="box-table-a" width="90%"><tbody><tr><th># RWD Sites, by Tier</th><th>**Responsive**</th><th>**Non-Responsive**</th><th>**RWD Ratio**</th></tr><tr><th>**Top 100**</th><td>11</td><td>89</td><td>11%</td></tr><tr><th>**Top 1,000**</th><td>126</td><td>874</td><td>12.6%</td></tr><tr><th>**Top 10,000**</th><td>1,129</td><td>8,102</td><td>12.2%</td></tr></tbody></table>As you can see, the results are fairly consistent, ranging from 11% to 12.6% across the different tiers. Almost 8% of sites failed to load, which is not uncommon when using generic lists.
+
+|# RWD Sites, by Tier  |	Responsive |	Non-Responsive |	RWD Ratio |
+|:--------------------:|:-----------:|:---------------:|:----------:|
+| Top 100	             | 11 |	89 |	11% |
+| Top 1,000	           |	126 |	874 |	12.6% |
+| Top 10,000           |	1,129 |	8,102 |	12.2% |
+
+As you can see, the results are fairly consistent, ranging from 11% to 12.6% across the different tiers. Almost 8% of sites failed to load, which is not uncommon when using generic lists.
 
 While I could manually verify 200 URLs, doing the same for 10,000 was a bit much… In addition to assuming the results would be as accurate as the first 200, I came up with one external way to vet my results.
 
@@ -65,5 +72,3 @@ Regarding the technique, I feel it’ll be a good (even if not perfect) way to t
 Regarding the data, I’m actually quite impressed. I was well aware RWD is gaining adoption, but frankly did not expect almost every 8<sup>th</sup> site to be responsive! I am truly happy it’s getting such broad adoption, and a little freaked out at the performance implications of it, since very few responsive websites [make the effort to be fast](http://www.guypo.com/responsive-web-design-is-bad-for-performance-there-i-said-it/).
 
 I’d love to get feedback on both data & technique, along with ideas for what to look into next with these new data sets. Please share your thoughts in the comments field or ping me [on Twitter](http://twitter.com/guypod/).
-
-

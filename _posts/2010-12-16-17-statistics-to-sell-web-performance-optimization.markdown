@@ -15,29 +15,29 @@ Here is a roundup of some of the most compelling statistics proving the effectiv
 
 - Facebook pages that are 500ms slower result in a 3% drop-off in traffic, 1000ms is 6% drop-off
 
-**Amazon:<sup></sup>**
+**Amazon:**
 
 - If Amazon increased page load time by +100ms they lose 1% of sales
 
-**Google:<sup></sup>**
+**Google:**
 
 - If Google increased page load by +500 ms they get 25% fewer searches
 
-**Shopzilla:<sup></sup>**
+**Shopzilla:**
 
 - Shopzilla reduced page load times from 7 seconds to 2 seconds and saw a 7% – 12% increase in conversion rate
 - Shopzilla increased pageviews by 25% by decreasing their load time by 5 seconds
 - Shopzilla was able to support the same volume with 50% (402 to 200 nodes) less nodes, cutting server costs in half
 
-**Yahoo: **
+**Yahoo:**
 
 - If Yahoo increased page load times by +400ms they see a 5 – 9% drop in full-page traffic
 
-**Firefox:<sup></sup>**
+**Firefox:>**
 
 - If Firefox reduced load times by 2.2 seconds they saw an increase in download conversions by 15.4%
 
-**General:<sup></sup>**
+**General:**
 
 - 47% of web users expect a page load of 2 seconds or less
 - 14% of users will start shopping at a different site if a page loads too slow
@@ -45,11 +45,11 @@ Here is a roundup of some of the most compelling statistics proving the effectiv
 - 64% of shoppers who are dissatisfied with their site visit will go somewhere else to shop next time
 - 52% of online shoppers claim that quick page loads are important for their loyalty to a site
 
-**Bing: **
+**Bing:**
 
 - A 1 second delay in Bing results in a 2.8% drop in revenue, 2 seconds is 4.3%
 
-**Netflix: **
+**Netflix:**
 
 - Netflix saw a 43% drop in outbound traffic after enabling compression
 
@@ -60,8 +60,7 @@ Here is a roundup of some of the most compelling statistics proving the effectiv
 **Please use the comments bellow if you know of any statistics we missed or have your own case studies / experiment data to share.**
 
 ****  
-<span style="font-size: 9px !important">  
-**Sources**</span>
+<span>**Sources**</span>
 
 Facebook:  [Velocity China](http://velocity.oreilly.com.cn/index.php)
 

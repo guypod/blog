@@ -27,10 +27,10 @@ This year, we’ve also added two subject matter tracks – The Developer Track 
 
 We have four awesome presentations in the Developer Track:
 
-- **1:30-2:10:**[Gene Kim](http://www.realgenekim.me/devops-cookbook/) will talk about DevOps and how it can help your business
-- **2:20-3:00:**[Jason Grigsby](https://twitter.com/grigs/) will explain Responsive Web Design and its performance implications
-- **3:30-4:10:**[Josh Clark](http://globalmoxie.com/index.shtml) will take us into the future, going beyond Mobile (he’s also taking us on [two 5k runs](https://twitter.com/globalmoxie/statuses/378620715194667008) during the conference…)
-- **4:20-5:00:**[Geoff Moore](http://www.geoffreyamoore.com/) would show how to shape our organization to tap into all of these opportunities.
+- **1:30-2:10:** [Gene Kim](http://www.realgenekim.me/devops-cookbook/) will talk about DevOps and how it can help your business
+- **2:20-3:00:** [Jason Grigsby](https://twitter.com/grigs/) will explain Responsive Web Design and its performance implications
+- **3:30-4:10:** [Josh Clark](http://globalmoxie.com/index.shtml) will take us into the future, going beyond Mobile (he’s also taking us on [two 5k runs](https://twitter.com/globalmoxie/statuses/378620715194667008) during the conference…)
+- **4:20-5:00:** [Geoff Moore](http://www.geoffreyamoore.com/) would show how to shape our organization to tap into all of these opportunities.
 
 The entire Developer Track is streamed live online from [http://akamai.com/edge/](http://akamai.com/edge/). You can also tune in earlier (11:40 AM) to see Tom Leighton, Akamai’s Co-Founder and CEO, give a series of demos of recent Akamai tech – that session is always a crowd favorite.
 
@@ -57,5 +57,3 @@ If you haven’t registered yet, you can use the code COMM20 to get a bit of ext
 Definitely an exciting month ahead, with two Edges, Velocity  & Web Perf Days.
 
 I hope to see you in at least one of those. If you can’t be there, I’d encourage you to [tune in online](http://akamai.com/edge/) to Akamai Edge, [submit your questions](http://www.google.com/moderator/#15/e=20e3ec&t=20e3ec.43&f=20e3ec.6c5042) to EdgeConf, and come join the conversation in [WebPerfDays](http://www.webperfdays.org/events/2013-newyork/index.html) after Velocity.
-
-

@@ -16,16 +16,17 @@ If you haven’t been following the conversation, let’s start with a quick bac
 
 The need for Responsive Images can be broken down into three use-cases:
 
-1. [**DPR Switching**](http://usecases.responsiveimages.org/#resolution-switching): Serving higher res images **only **to devices with higher Device Pixel Ratio (aka Retina devices)
+1. [**DPR Switching**](http://usecases.responsiveimages.org/#resolution-switching): Serving higher res images **only** to devices with higher Device Pixel Ratio (aka Retina devices)
 2. [**Viewport Switching**](http://usecases.responsiveimages.org/#resolution-switching): Serving smaller images to smaller or lower-resolution screens
 3. [**Art Direction**](http://usecases.responsiveimages.org/#art-direction): Serving a different (often cropped) version of an image to a smaller screen, highlighting the important parts of a picture instead of just shrinking it.
 
 Today, responsive images can only be achieved using JavaScript, CSS or server-side detection, which are harder to implement and have performance implications compared to regular img tags. The current efforts by the RICG aim to enhance HTML (or HTTP) to support responsive images without requiring such workarounds. However, there’s more than way to skin this cat…
 
 Here are the primary not-mutually-exclusive alternatives on the table:
-- **[Picture](http://picture.responsiveimages.org/)**: an HTML element similar to HTML5’s <video> tag, which uses media-queries to determine which image to load and is uber flexible.
-- **[srcset](http://dev.w3.org/html5/srcset/)**: An <img> tag attribute specifying different URLs to load for a given DPR and possibly resolution.
-- **[Client Hints](https://github.com/igrigorik/http-client-hints)**: HTTP header(s) the browser would send, indicating the client’s DPR (and more), allowing the server to serve the correct image.
+
+* **[Picture](http://picture.responsiveimages.org/)**: an HTML element similar to HTML5’s &lt;video&gt; tag, which uses media-queries to determine which image to load and is uber flexible.
+* **[srcset](http://dev.w3.org/html5/srcset/)**: An &lt;img&gt; tag attribute specifying different URLs to load for a given DPR and possibly resolution.
+* **[Client Hints](https://github.com/igrigorik/http-client-hints)**: HTTP header(s) the browser would send, indicating the client’s DPR (and more), allowing the server to serve the correct image.
 
 There are a few other proposals (like Yoav Weiss’s “[Magical Image Format](http://blog.yoav.ws/2013/09/Responsive-Image-Container)”) which have their own merits, but are not as far along.
 
@@ -49,7 +50,7 @@ The picture element was practically sneered at by the implementers. It was seen 
 
 When discussing the use of media queries for determining which resource to load, whether as part of the picture element or not, there was… some unease from the browser folks. Media queries are more complex to evaluate, and thus would require more CPU; they can’t always be evaluated by the preprocessor (think about viewport width in an iframe); and they may be enhanced in the future in ways that would be even harder to process. Unlike picture, though, I didn’t feel like using media queries was entirely dismissed. If there’s enough push and value, I think browsers may agree to take this path.
 
-Lastly, on Client-hints, there was push back against adding headers. One explicit statement was that “while we (browser implementers) aren’t saying we’ll ***never ***add new headers, we’re only one step away from that”. They pointed out that while some header-based content negotiation techniques worked in the past (e.g. Accept-Encoding), many failed (e.g. Accept-Language, Accept-Charset), leaving a sense that this is a wrong approach. Personally, I don’t think past failures are a reason not to try again, and feel like an [opt-in mechanism](https://github.com/igrigorik/http-client-hints/issues/8) for Client Hints would mitigate much of the concern.
+Lastly, on Client-hints, there was push back against adding headers. One explicit statement was that “while we (browser implementers) aren’t saying we’ll ***never*** add new headers, we’re only one step away from that”. They pointed out that while some header-based content negotiation techniques worked in the past (e.g. Accept-Encoding), many failed (e.g. Accept-Language, Accept-Charset), leaving a sense that this is a wrong approach. Personally, I don’t think past failures are a reason not to try again, and feel like an [opt-in mechanism](https://github.com/igrigorik/http-client-hints/issues/8) for Client Hints would mitigate much of the concern.
 
 
 ## Srcset – the most likely path
