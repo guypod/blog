@@ -59,7 +59,10 @@ As open as the discussion was, at the end of the day these decisions are at the 
 
 DPR support in srcset is likely to start showing up very soon. However, the extended [srcset spec](http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/), which includes viewport sizes, is not a foregone conclusion. The main problem lies with the hard-to-parse micro-syntax used in srcset, used to describe permutations of viewport dimensions and DPRs. For example, consider this img tag:
 
-*<<span style="color: #339966;">img</span><span style="color: #ff0000;">src</span>=”a.jpg” <span style="color: #ff0000;">srcset</span>=”**b.jpg 400w 2x, b.jpg 800w 1x, c.jpg 600h 2x**”>*
+```html
+<img src=”a.jpg”
+     srcset="b.jpg 400w 2x, b.jpg 800w 1x, c.jpg 600h 2x">
+```
 
 This small example demonstrates multiple problems:
 
