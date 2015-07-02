@@ -7,9 +7,9 @@ date: '2012-09-25 17:08:52'
 
 Consolidation of JavaScript and CSS files is one of the simplest Front-End Optimization techniques. Its goal is to reduce the number of roundtrips to the server, and thus save time and resources. Implementation is simple – Take all the (textual) JS files linked on a page, paste them into one large file, and make your page point to that resource. Repeat for CSS, and e-voila, you have a faster page.
 
-Unfortunately, nothing is really as simple as it sounds… While implementing consolidation is fairly easy, applying consolidation creates two new performance problems: **Duplicate Downloads** and **Breaking Progressive Processing**. This blog post explains these issues, and describes the techniques we use – and you *can *use – to address it in Akamai FEO.  
-  
- A short disclaimer – the solutions are not trivial to implement. That said, our experience is that they are definitely worth the effort. Besides, if you like the ideas but don’t want to implement them yourself, you can always use an automated FEO solution…
+Unfortunately, nothing is really as simple as it sounds… While implementing consolidation is fairly easy, applying consolidation creates two new performance problems: **Duplicate Downloads** and **Breaking Progressive Processing**. This blog post explains these issues, and describes the techniques we use – and you *can* use – to address it in Akamai FEO.  
+
+A short disclaimer – the solutions are not trivial to implement. That said, our experience is that they are definitely worth the effort. Besides, if you like the ideas but don’t want to implement them yourself, you can always use an automated FEO solution…
 
 
 ## Duplicate Downloads
@@ -29,22 +29,17 @@ Unfortunately, browser cache doesn’t work that way, and offers no way to cache
 
 At a high level, Adaptive Consolidation works as follows:
 
-–       At the top of an HTML, “register” all the JS/CSS fragments this page requires
-
-–       Following that, a script checks which fragments are already in localStorage
-
-–       Those that are not in localStorage are fetched with one request
-
-–       Each fragment is evaluated (e.g. execute script or apply CSS) in order
-
-–       Any fragment that wasn’t in localStorage before is now stored (can be deferred till post onload)
+* At the top of an HTML, “register” all the JS/CSS fragments this page requires
+* Following that, a script checks which fragments are already in localStorage
+* Those that are not in localStorage are fetched with one request
+* Each fragment is evaluated (e.g. execute script or apply CSS) in order
+* Any fragment that wasn’t in localStorage before is now stored (can be deferred till post onload)
 
 I discussed Adaptive Consolidation in more detail in my “DIY Scriptable Cache” Webinar, you can find the slides [here](http://www.slideshare.net/blazeio/diy-scriptablecachev2) and the recording [here](http://oreillynet.com/pub/e/2200).
 
 This flow is intentionally simplified, and doesn’t fully match our optimization. In addition, there are some complicated parts in the flow, such as managing the stored data as a [scriptable cache](http://www.guypo.com/browser-cache-2-0-scriptable-cache/); evaluating scripts and CSS with JavaScript without breaking functionality; and handling errors when localStorage is full or unavailable.
 
 Despite these caveats, and as mentioned above, this optimization proved to be extremely valuable to us, completely avoiding redundant data while achieving maximum consolidation.
-
 
 ## Breaking Progressive Processing
 
@@ -63,23 +58,31 @@ As it turns out, there IS one resource that browsers process progressively – H
 
 For instance, “Regular” Adaptive Consolidation can use a script tag like this:
 
-***<script src=”consolidated.js”>***
+```html
+<script src=”consolidated.js”>
+```
 
 And consolidated.js will hold this content:
 
-***Notify(“a.js”,”alert(1)”);  
- Notify(“b.js”,”alert(2)”);***
+```html
+<script>
+Notify(“a.js”,”alert(1)”);  
+Notify(“b.js”,”alert(2)”);
+</script>
+```
 
 Streaming Consolidation, on the other hand, will use an IFrame like this:
 
-***<iframe src=”consolidated.htm”>***
+```html
+<iframe src=”consolidated.htm”>
+```
 
 And consolidated.htm will hold this content:
 
-***  
-**<script>parent.Notify(“a.js”,”alert(1)”)</script>  
-**<script>parent.Notify(“b.js”,”alert(2)”)</script>  
-*****
+```html
+<script>parent.Notify(“a.js”,”alert(1)”)</script>  
+<script>parent.Notify(“b.js”,”alert(2)”)</script>  
+```
 
 All in all, it’s pretty easy to convert Adaptive Consolidation into Streaming Consolidation. There is only one catch… it requires Async JS Execution.
 
@@ -93,5 +96,3 @@ Nothing is ever as simple as it seems… Last year [I wrote about the problems w
 If you can afford it, implement or buy one of the solutions above. If not, weigh the issues above when deciding what should be merged with what. And most importantly – **measure**. The fact you followed a best practice doesn’t mean your page is faster until the numbers tell you so.
 
  
-
-

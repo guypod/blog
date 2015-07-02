@@ -4,9 +4,6 @@ title: Responsive Web Design Makes It Hard To Be Fast
 date: '2012-10-09 19:38:50'
 ---
 
-
-Update: updated title and reference to mdot site below, following feedback
-
 I like Responsive Design. Heck, I LOVE Responsive Design. I think it’s a brilliant methodology, which address true challenges in a very good way. But no matter how fond you are of RWD, I think you have to face the music – RWD makes it very hard to write a fast website.
 
 I’m not saying you can’t write a high performance responsive website. I’m not saying you shouldn’t use RWD (Responsive Web Design) – I would actually recommend it to most organizations. However, RWD makes pages inherently more complicated, and all in all would make the mobile web slower.
@@ -50,5 +47,3 @@ And yet, the user experience on those sites is horrible. The only value in makin
 We should do what we are currently doing – keep pushing RWD, and make sure we push for performance awareness with it. Push developers and designers to consider performance to be a core requirement, and do the best to address it from day one.  Push browser vendors to make it easier to create fast responsive websites, like the effort to standardize responsive images. Push business to set performance goals and see bad performance as a show-stopping quality bug. On the implementation side, we should do what we can to overcome the main hurdles. Some good places to start [here](http://slideshare.net/guypod/performance-implications-of-mobile-design-perf-audience-edition), [here](http://filamentgroup.com/lab/ajax_includes_modular_content/) and [here](https://github.com/scottjehl/picturefill).
 
 And at the same time, we should accept that RWD means a slower website. Just like Retina images give users richer but slower performance, RWD has its costs. We should accept that as a fact, and do what we can to mitigate the performance cost.
-
-

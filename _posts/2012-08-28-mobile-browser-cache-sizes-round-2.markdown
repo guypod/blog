@@ -16,7 +16,23 @@ With all those changes, plus some probing from Steve Souders, I figured it’s a
 
 Starting from the bottom line, here is a summary table of the max cache sizes per browser and OS, including the new and old results.
 
-<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" width="111">**OS**</td><td valign="top" width="124">**Browser**</td><td valign="top" width="194">**Max Persistent Cache Size**</td></tr><tr><td valign="top" width="111">**iOS 4.3**</td><td valign="top" width="124">Mobile Safari</td><td valign="top" width="194">0</td></tr><tr><td valign="top" width="111">**iOS 5.1.1**</td><td valign="top" width="124">Mobile Safari</td><td valign="top" width="194">0</td></tr><tr><td valign="top" width="111">**iOS 5.1.1**</td><td valign="top" width="124">Chrome for IOS</td><td valign="top" width="194">200 MB+</td></tr><tr><td valign="top" width="111">**Android 2.2**</td><td valign="top" width="124">Android Browser</td><td valign="top" width="194">4 MB</td></tr><tr><td valign="top" width="111">**Android 2.3**</td><td valign="top" width="124">Android Browser</td><td valign="top" width="194">4 MB</td></tr><tr><td valign="top" width="111">**Android 3.0**</td><td valign="top" width="124">Android Browser</td><td valign="top" width="194">20 MB</td></tr><tr><td valign="top" width="111">**Android 4.0 – 4.1**</td><td valign="top" width="124">Chrome for Android</td><td valign="top" width="194">85 MB</td></tr><tr><td valign="top" width="111">**Android 4.0 – 4.1**</td><td valign="top" width="124">Android Browser</td><td valign="top" width="194">85 MB</td></tr><tr><td valign="top" width="111">**Android 4.1**</td><td valign="top" width="124">Firefox Beta</td><td valign="top" width="194">75 MB</td></tr><tr><td valign="top" width="111">**Blackberry OS 6**</td><td valign="top" width="124">Browser</td><td valign="top" width="194">25 MB</td></tr><tr><td valign="top" width="111">**Blackberry OS 7**</td><td valign="top" width="124">Browser</td><td valign="top" width="194">85 MB</td></tr></tbody></table>Note that the tested Android devices and OS versions were: Samsung Galaxy S (2.2), Google Nexus S (2.3), Motorola XOOM (3.0), Samsung Galaxy S 3 (4.0), Google Nexus 7 (4.1), Google Nexus S (4.1).
+
+|OS|	Browser|	Max Persistent Cache Size
+|:---|:----:|:----:
+|iOS 4.3	|Mobile Safari	|0
+|iOS 5.1.1	|Mobile Safari	|0
+|iOS 5.1.1	|Chrome for IOS	|200 MB+
+|Android 2.2	|Android Browser|	4 MB
+|Android 2.3	|Android Browser|	4 MB
+|Android 3.0	|Android Browser|	20 MB
+|Android 4.0 – 4.1	|Chrome for Android|	85 MB
+|Android 4.0 – 4.1	|Android Browser|	85 MB
+|Android 4.1	|Firefox Beta|	75 MB
+|Blackberry OS 6	|Browser|	25 MB
+|Blackberry OS 7	|Browser|	85 MB
+
+
+Note that the tested Android devices and OS versions were: Samsung Galaxy S (2.2), Google Nexus S (2.3), Motorola XOOM (3.0), Samsung Galaxy S 3 (4.0), Google Nexus 7 (4.1), Google Nexus S (4.1).
 
 As you can see, with the exception of Mobile Safari, cache sizes seem to have grown significantly over the last year. Now on to the details…
 
@@ -77,5 +93,3 @@ Mobile browsers evolve quickly, and most seem to have heard the complaints from 
 Except for Chrome for iOS, browser cache is still small on mobile compared to desktop.  Desktop browsers claim disk cache sizes such as [250 MB](http://blogs.msdn.com/b/ie/archive/2011/03/17/internet-explorer-9-network-performance-improvements.aspx) for IE 9, 200 MB for Chrome (based on chrome://net-internals#httpCache) and 540 MB for Firefox (based on about:cache). At least Chrome, and perhaps others, calculate max cache size based on available disk space on both Mobile and desktop, which may account for this gap.
 
 There’s definitely reason to be optimistic about mobile browser cache given these improvements, but we can’t let off mobile browser vendors just yet. I’ll be happy when all mobile browsers match Chrome for iOS for cache size, and think we may just get there after all.
-
-
