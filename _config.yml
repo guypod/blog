@@ -1,13 +1,13 @@
 # Site settings
-title:       Guy's Pod
+title:       Developmental Mommy
 email:
-author:      Guy Podjarny
-description: "Thoughts and research on Web Performance & Security"
+author:      Gal Podjarny
+description: "Developmental research from a mommy perspective (or vice versa)"
 baseurl:     ""
-url:         "http://www.guypo.com/"
+url:         "http://www.galpod.com/"
 
 # Google analytics
-google_analytics: UA-32373758-1
+google_analytics: UA-70465633-1
 
 # Optional features
 animated:           false
@@ -17,16 +17,16 @@ inline-css: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: guypod
+disqus_shortname: galpod
 
 # Social icons
 show_social_icons: true
-github_username: guypod
+github_username: galpod
 stackoverflow_id:
-twitter_username: guypod
+twitter_username: galpod
 google_plus_id:
-linkedin_username: guypo
-angellist_username: guypod
+linkedin_username: galpod
+angellist_username: 
 bitcoin_url:
 paypal_url:
 flattr_button:
