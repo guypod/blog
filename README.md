@@ -1,2 +1,2 @@
 # blog
-Guy's Pod - www.guypo.com blog
+Developmental Mommy - www.galpod.com blog
