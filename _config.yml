@@ -4,7 +4,6 @@ email:
 author:      Guy Podjarny
 description: "Thoughts and research on Web Performance & Security"
 baseurl:     ""
-url:         https://www.guypo.com/
 
 # Google analytics
 google_analytics: UA-32373758-1
